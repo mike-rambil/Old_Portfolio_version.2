@@ -41,7 +41,7 @@ ul li {
   width: 250px;
   height: 400px;
   top: 3.5rem;
-
+  right: 45px;
   opacity: 0;
   transition: 0.2s ease-in-out;
   text-align: center;

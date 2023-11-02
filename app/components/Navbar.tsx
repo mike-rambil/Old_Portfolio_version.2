@@ -1,6 +1,7 @@
 'use client';
 import Image from 'next/image';
 import Link from 'next/link';
+import { relative } from 'path';
 import { useState } from 'react';
 import { useDarkMode } from '../utils/toggleLightMode/useDarkMode';
 import './navbar.css';
@@ -63,34 +64,36 @@ export default function Navbar() {
               )}
             </button>
           </div>
-          <div className='mr-5 md:mr-4'>
-            <button onClick={handleClick}>
-              {' '}
-              <nav id='menu' className='menu '>
-                <div className='toggler button'></div>
-                <div className='toggler button'></div>
-                <div className='toggler button'></div>
-              </nav>
-            </button>
-          </div>
-          {/* For Mobile Device --Animated Transition */}
-          <div id='navbar' className='navbar '>
-            <ul>
-              <li className=' md:block cursor-pointer text-white hover:text-accent mb-5'>
-                <a href={'/portfolio'}>
-                  <div className='flex  justify-center'>
-                    <div className='text-white'>Portfolio</div>
-                  </div>
-                </a>
-              </li>
-              <li className='cursor-pointer  font-semibold hover:text-accent  '>
-                <Link href={'/'} className=' '>
-                  <div className='flex  justify-center'>
-                    <div className='w-16'>Blog</div>
-                  </div>
-                </Link>
-              </li>
-            </ul>
+          <div style={{ position: 'relative' }}>
+            <div className='mr-5 md:mr-4'>
+              <button onClick={handleClick}>
+                {' '}
+                <nav id='menu' className='menu '>
+                  <div className='toggler button'></div>
+                  <div className='toggler button'></div>
+                  <div className='toggler button'></div>
+                </nav>
+              </button>
+            </div>
+            {/* For Mobile Device --Animated Transition */}
+            <div id='navbar' className='navbar '>
+              <ul>
+                <li className=' md:block cursor-pointer text-white hover:text-accent mb-5'>
+                  <a href={'/portfolio'}>
+                    <div className='flex  justify-center'>
+                      <div className='text-white'>Portfolio</div>
+                    </div>
+                  </a>
+                </li>
+                <li className='cursor-pointer  font-semibold hover:text-accent  '>
+                  <Link href={'/'} className=' '>
+                    <div className='flex  justify-center'>
+                      <div className='w-16'>Blog</div>
+                    </div>
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
