@@ -63,7 +63,7 @@ export default function Navbar() {
               )}
             </button>
           </div>
-          <div className='mr-5 md:mr-0'>
+          <div className='mr-5 md:mr-4'>
             <button onClick={handleClick}>
               {' '}
               <nav id='menu' className='menu '>
