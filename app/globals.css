@@ -6,13 +6,26 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --main: #81e6d9;
-  --primary: #ffffff;
-  --secondary: #fbd38d;
-  --accent: #ff63c3;
-  --nuetral: #202023;
-  --nuetral-secondary: #1a202c;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+/* 
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+  background: var(--background);
+  -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-corner {
+  background: #fff3;
+} */
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -30,4 +43,8 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.button {
+  @apply bg-main text-primary;
 }
