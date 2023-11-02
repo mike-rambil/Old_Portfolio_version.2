@@ -23,6 +23,7 @@ const config: Config = {
         neutral1: '#242428F2',
 
         light: '#f0e7db',
+        lightAccent: '#212326',
       },
     },
   },

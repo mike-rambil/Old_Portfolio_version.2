@@ -24,11 +24,14 @@ export default function Hero() {
         <div className='flex flex-col-reverse md:flex-row w-96 md:w-full '>
           <div className='flex md:flex-col   md:justify-center items-center'>
             <div>
-              <h1 className='text-4xl font-semibold'>Micheal Palliparambil</h1>
+              <h1 className='text-4xl font-semibold text-lightAccent  dark:text-secondary'>
+                Micheal Palliparambil
+              </h1>
             </div>
-            <div className='flex flex-col  md:flex md:flex-row gap-3 text-sm '>
+            <div className='flex flex-col  md:flex md:flex-row gap-3 text-sm text-lightAccent dark:dark:text-secondary'>
               <h3 className='hidden md:block'>Full Stack Developer -</h3>
-              <h3>Designer </h3>
+              <h3 className=' md:hidden'>Developer </h3>
+              <h3>Designer -</h3>
               <h3>Artist</h3>
             </div>
           </div>
@@ -42,10 +45,16 @@ export default function Hero() {
             />
           </div>
         </div>
-        <div className='m-w-[279px] h-[100px] text-center flex justify-center items-center bg-neutral1 font-extrabold rounded-md'>
-          Hello, I’m a dev based in
-          <span className='text-main mx-1 ml-4 text-2xl'>CHICAGO,</span>
-          <span className='text-accent mx-1 text-2xl'>IL.</span>
+        <div className='m-w-[279px] h-[100px] text-center flex justify-center items-center bg-neutral1 text-gray-500 font-extrabold rounded-md'>
+          <span>Hello, I’m a dev</span>
+          <span className='hidden md:block md:flex md:items-center'>
+            <span className='text-gray-500 ml-3 text-md '>based in</span>
+            <span className='text-main mx-1 ml-4 text-2xl'>CHICAGO,</span>
+            <span className='text-accent mx-1 text-2xl'>IL.</span>
+          </span>
+          <span className='md:hidden'>
+            based in <span className='text-main '>CHICAGO,</span> IL.
+          </span>
         </div>
       </motion.section>
     </>

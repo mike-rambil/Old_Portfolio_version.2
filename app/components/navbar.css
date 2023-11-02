@@ -1,4 +1,4 @@
-ul li {
+nav li {
   list-style: none;
 }
 .menu {
@@ -34,18 +34,20 @@ ul li {
 }
 
 .navbar {
-  background-color: #1a202c;
+  background-color: #1c2c49;
   position: absolute;
   overflow: hidden;
   visibility: hidden;
   width: 250px;
   height: 400px;
   top: 3.5rem;
-  right: 45px;
+  right: 50px;
   opacity: 0;
   transition: 0.2s ease-in-out;
   text-align: center;
   border-radius: 3px;
+  border: 0.5px solid gray;
+  box-shadow: 0px 5px 50px 0.3px rgb(2, 2, 2);
 }
 
 .navbar.show {
@@ -55,7 +57,7 @@ ul li {
   visibility: visible;
 }
 
-.navbar ul {
+.navbar nav {
   padding: 10%;
   position: absolute;
   top: 50%;
@@ -63,8 +65,12 @@ ul li {
   transform: translate(-50%, -50%);
 }
 
+nav {
+  height: 100%;
+}
+
 @media screen and (max-width: 756px) {
   .navbar {
-    right: 0;
+    right: 30px;
   }
 }

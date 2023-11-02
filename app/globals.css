@@ -46,5 +46,5 @@ body {
 }
 
 .button {
-  @apply bg-main text-primary;
+  @apply bg-lightAccent dark:bg-main text-primary;
 }

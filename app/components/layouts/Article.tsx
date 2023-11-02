@@ -14,7 +14,7 @@ export default function Article({ children }: { children: React.ReactNode }) {
       exit='exit'
       variants={variants}
       transition={{ duration: 0.4, type: 'easeInOut' }}
-      style={{ position: 'relative' }}
+      // style={{ position: 'relative' }}
     >
       {children}
     </motion.article>

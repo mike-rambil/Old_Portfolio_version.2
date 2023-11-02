@@ -34,7 +34,9 @@ export default function Navbar() {
       <section className=' h-full max-w-4xl w-full   mx-auto flex justify-between items-center'>
         {/*   LEFT SIDE Logo */}
         <div className='ml-3 md:mr-0'>
-          <Image alt='Micheal Palliparambil Logo' src={Logo} />
+          <Link href={'/'}>
+            <Image alt='Micheal Palliparambil Logo' src={Logo} />
+          </Link>
         </div>
 
         {/* Right Side */}
@@ -68,31 +70,35 @@ export default function Navbar() {
             <div className='mr-5 md:mr-4'>
               <button onClick={handleClick}>
                 {' '}
-                <nav id='menu' className='menu '>
+                <div id='menu' className='menu '>
                   <div className='toggler button'></div>
                   <div className='toggler button'></div>
                   <div className='toggler button'></div>
-                </nav>
+                </div>
               </button>
             </div>
             {/* For Mobile Device --Animated Transition */}
             <div id='navbar' className='navbar '>
-              <ul>
-                <li className=' md:block cursor-pointer text-white hover:text-accent mb-5'>
+              <nav className='w-full text-right'>
+                <li className='  cursor-pointer  font-semibold mb-5 '>
                   <a href={'/portfolio'}>
-                    <div className='flex  justify-center'>
-                      <div className='text-white'>Portfolio</div>
+                    <div className=''>
+                      <div className='text-white text-sm hover:text-black  hover:underline  '>
+                        Portfolio
+                      </div>
                     </div>
                   </a>
                 </li>
-                <li className='cursor-pointer  font-semibold hover:text-accent  '>
+                <li className='cursor-pointer  font-semibold   '>
                   <Link href={'/'} className=' '>
-                    <div className='flex  justify-center'>
-                      <div className='w-16'>Blog</div>
+                    <div className=''>
+                      <div className='  text-white text-sm hover:text-black hover:underline'>
+                        Blog
+                      </div>
                     </div>
                   </Link>
                 </li>
-              </ul>
+              </nav>
             </div>
           </div>
         </div>
