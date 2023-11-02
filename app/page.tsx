@@ -7,7 +7,7 @@ import Hero from './components/hero/Hero';
 export const metadata: Metadata = {
   title: 'Micheal Palliparambil - Homepage',
   description:
-    'Micheal Palliparambil is a software developer based in Chicago, IL. Checkout his PortFolio here! ',
+    'Micheal Palliparambil is a software developer based in Chicago, IL. Checkout his Website here! ',
   keywords: [
     'Micheal',
     'Palliparambil',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Micheal Palliparambil's Portfolio",
     description:
-      'Micheal Palliparambil is a software developer based in Chicago, IL. Checkout his PortFolio here!',
+      'Micheal Palliparambil is a software developer based in Chicago, IL. Checkout his Website here!',
     // url: 'https://nextjs.org',
     siteName: 'Micheal Palliparambil',
     // images: [
