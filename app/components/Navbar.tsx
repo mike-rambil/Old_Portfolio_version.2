@@ -6,11 +6,11 @@ import { useDarkMode } from '../utils/toggleLightMode/useDarkMode';
 import './navbar.css';
 import Logo from '/public/mike-rambil-logo.svg';
 export default function Navbar() {
-  const [isDark, setIsDark] = useState('true');
+  const [isDark, setIsDark] = useState(true);
   const { theme, toggleTheme } = useDarkMode();
 
   function handleDarkClick() {
-    setIsDark(!isDark);
+    setIsDark((prevState) => !prevState);
     localStorage.setItem('theme', theme === 'light' ? 'dark' : 'light');
     toggleTheme();
   }
