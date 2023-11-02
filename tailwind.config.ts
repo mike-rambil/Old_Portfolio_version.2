@@ -20,7 +20,7 @@ const config: Config = {
         secondary: '#fbd38d',
         accent: '#ff63c3',
         neutral: '#1a202c',
-        neutral1: '#242428F2',
+        neutral1: '#313134',
 
         light: '#f0e7db',
         lightAccent: '#212326',

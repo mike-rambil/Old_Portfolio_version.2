@@ -19,7 +19,6 @@ export default function Hero() {
         exit='exit'
         variants={variants}
         transition={{ duration: 0.4, type: 'easeInOut' }}
-        // style={{ position: 'relative' }}
       >
         <div className='flex flex-col-reverse md:flex-row w-96 md:w-full '>
           <div className='flex md:flex-col   md:justify-center items-center'>
@@ -35,7 +34,7 @@ export default function Hero() {
               <h3>Artist</h3>
             </div>
           </div>
-          <div className=' bg-neutral1 rounded-tl-full rounded-tr-full md:rounded-tr-none flex mx-auto'>
+          <div className=' bg-neutral1 rounded-tl-full rounded-tr-full md:rounded-tr-none flex mx-auto border-b-2 border-main'>
             <Image
               alt="Micheal Palliparambil's Picture"
               src={hero}
@@ -45,12 +44,20 @@ export default function Hero() {
             />
           </div>
         </div>
-        <div className='m-w-[279px] h-[100px] text-center flex justify-center items-center bg-neutral1 text-gray-500 font-extrabold rounded-md'>
-          <span>Hello, I’m a dev</span>
+        <div className='max-w-2xl h-[50px] mt-5 text-center flex justify-center items-center bg-neutral1 text-white dark:text-gray-500 font-extrabold rounded-md'>
+          <span className='text-sm hover:text-white'>
+            Hello, I’m a developer
+          </span>
           <span className='hidden md:block md:flex md:items-center'>
-            <span className='text-gray-500 ml-3 text-md '>based in</span>
-            <span className='text-main mx-1 ml-4 text-2xl'>CHICAGO,</span>
-            <span className='text-accent mx-1 text-2xl'>IL.</span>
+            <span className='text-white dark:text-gray-500 ml-3 text-sm hover:text-white'>
+              based in
+            </span>
+            <span className='text-main mx-1 ml-4 text-1xl hover:text-white'>
+              CHICAGO,
+            </span>
+            <span className='text-accent mx-1 text-1xl hover:text-white'>
+              IL.
+            </span>
           </span>
           <span className='md:hidden'>
             based in <span className='text-main '>CHICAGO,</span> IL.

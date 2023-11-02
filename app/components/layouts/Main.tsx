@@ -6,8 +6,7 @@ export default function Main({ children }: { children: React.ReactNode }) {
   return (
     <>
       <Head>
-        <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <meta name='description' content="Micheal Palliparambil's Homepage" />
+        {/* <meta name='viewport' content='width=device-width, initial-scale=1' /> */}
         <meta name='author' content='Micheal Palliparambil' />
         <meta name='author' content='Mike Rambil' />
         <link rel='micheal-palliparambil-icon' href='/icon.png' />
