@@ -77,16 +77,16 @@ export default function Navbar() {
           <div id='navbar' className='navbar '>
             <ul>
               <li className=' md:block cursor-pointer text-white hover:text-accent mb-5'>
-                <a href={'/'}>
+                <a href={'/portfolio'}>
                   <div className='flex  justify-center'>
-                    <div className='text-white'>Micheal</div>
+                    <div className='text-white'>Portfolio</div>
                   </div>
                 </a>
               </li>
               <li className='cursor-pointer  font-semibold hover:text-accent  '>
                 <Link href={'/'} className=' '>
                   <div className='flex  justify-center'>
-                    <div className='w-16'>Michlea 2</div>
+                    <div className='w-16'>Blog</div>
                   </div>
                 </Link>
               </li>

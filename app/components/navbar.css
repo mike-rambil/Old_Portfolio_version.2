@@ -35,12 +35,13 @@ ul li {
 
 .navbar {
   background-color: #1a202c;
-  position: fixed;
+  position: absolute;
   overflow: hidden;
   visibility: hidden;
   width: 250px;
   height: 400px;
   top: 3.5rem;
+
   opacity: 0;
   transition: 0.2s ease-in-out;
   text-align: center;
@@ -60,4 +61,10 @@ ul li {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 756px) {
+  .navbar {
+    right: 0;
+  }
 }
