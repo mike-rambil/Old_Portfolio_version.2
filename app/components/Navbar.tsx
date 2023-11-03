@@ -51,7 +51,7 @@ export default function Navbar() {
                   animation='tada-hover'
                   border='square'
                   size='md'
-                  color='yellow'
+                  color='orange'
                 ></box-icon>
               ) : (
                 //@ts-ignore

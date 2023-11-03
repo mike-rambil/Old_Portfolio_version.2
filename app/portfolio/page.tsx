@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import PortfolioContent from './PortfolioContent';
 
 export const metadata: Metadata = {

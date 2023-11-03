@@ -1,4 +1,6 @@
 import { Metadata } from 'next';
+import BioSocials from './components/experience/BioSocials';
+import Experience from './components/experience/Experience';
 import Hero from './components/hero/Hero';
 
 // Todo: OpenGraph Protocol and Icons- https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadata-fields
@@ -47,8 +49,10 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className='flex min-h-screen flex-col items-center justify-between p-24 bg-light  dark:bg-primary'>
+    <main className='flex min-h-screen flex-col items-center  p-12 bg-light  dark:bg-primary'>
       <Hero />
+      <Experience />
+      <BioSocials />
     </main>
   );
 }
