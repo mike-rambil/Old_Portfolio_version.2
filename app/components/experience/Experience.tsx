@@ -53,8 +53,8 @@ export default function Experience() {
               </Link>
             </div>
 
-            {/* <div
-              className='scroller'
+            <div
+              className='scroller mt-2'
               style={{
                 // position: 'absolute',
                 overflow: 'hidden',
@@ -120,7 +120,7 @@ export default function Experience() {
                   alt='postgre-icon'
                 />
               </div>
-            </div> */}
+            </div>
           </section>
         </article>
       </Article>

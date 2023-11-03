@@ -1,7 +1,8 @@
 'use client';
 
-import 'boxicons';
+// import 'boxicons';
 import { Fira_Code } from 'next/font/google';
+import Script from 'next/script';
 import Main from './components/layouts/Main';
 import './globals.css';
 import { useDarkMode } from './utils/toggleLightMode/useDarkMode';
@@ -21,6 +22,8 @@ export default function RootLayout({
       <body className={fira_Code.className}>
         <Main>{children}</Main>
       </body>
+
+      <Script src='https://unpkg.com/boxicons@2.1.4/dist/boxicons.js' />
     </html>
   );
 }

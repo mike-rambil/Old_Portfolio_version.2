@@ -6,6 +6,7 @@ Project Description
 
 ### Todo
 
+- [ ] Opacity Issue for the Drop Down Menu  
 - [ ] Add Media for Sam Galaxy S8+ & Galaxy Fold  
 
 ### In Progress
