@@ -15,9 +15,11 @@ export function useDarkMode() {
   });
 
   useEffect(() => {
+    //@ts-ignore
     document.documentElement.classList.add(theme);
 
     return () => {
+      //@ts-ignore
       document.documentElement.classList.remove(theme);
     };
   }, [theme]);
