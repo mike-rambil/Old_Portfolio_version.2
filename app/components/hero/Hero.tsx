@@ -23,11 +23,11 @@ export default function Hero() {
         <div className='flex flex-col-reverse md:flex-row w-96 md:w-full mt-4 '>
           <div className='flex flex-col justify-center items-left'>
             <div>
-              <h1 className='text-4xl font-semibold text-lightAccent  dark:text-secondary mt-5'>
+              <h1 className='ml-14 md:ml-0 text-4xl font-semibold text-lightAccent  dark:text-secondary mt-5 '>
                 Micheal Palliparambil
               </h1>
             </div>
-            <div className='flex gap-3 text-sm text-lightAccent dark:dark:text-secondary'>
+            <div className='ml-14 md:ml-0  flex gap-3 text-sm text-lightAccent dark:dark:text-secondary'>
               <h3 className='hidden md:block'>Full Stack Developer -</h3>
               <h3 className=' md:hidden '>Developer -</h3>
               <h3>Designer -</h3>
@@ -44,8 +44,9 @@ export default function Hero() {
             />
           </div>
         </div>
-        <div className='max-w-2xl h-[50px] mt-5 text-center flex justify-center items-center bg-neutral1 text-white dark:text-gray-500 font-extrabold rounded-md'>
+        <div className='max-w-2xl h-[50px] mt-5 text-center flex justify-center items-center bg-neutral1 text-white dark:text-gray-500 font-extrabold rounded'>
           <div className='hidden md:block'>
+            {/* For Tablets and Up -> */}
             <span className='text-sm hover:text-white'>
               Hello, I’m a developer
             </span>
@@ -64,7 +65,9 @@ export default function Hero() {
               based in <span className='text-main '>CHICAGO,</span> IL.
             </span>
           </div>
-          <div className='block md:hidden text-xs'>
+
+          {/* For Mobile Screens */}
+          <div className='block md:hidden text-xs '>
             Hello, I’m a developer based in
             <span className='text-main mx-1 ml-4 text-1xl hover:text-white'>
               CHICAGO,

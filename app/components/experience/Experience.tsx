@@ -41,23 +41,15 @@ export default function Experience() {
             <h2 className='portfolio-h2'>Work</h2>
             <p className='portfolio-paragraph max-w-xl'>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Architecto aspernatur aperiam sit nesciunt reiciendis molestiae?
-              Reprehenderit repudiandae, perspiciatis velit beatae dolorum minus
-              a voluptatem ipsam aut sequi nesciunt? Minima, amet? Vitae
-              suscipit dolorum quas temporibus odit velit, excepturi labore nemo
-              nam et ut, assumenda harum. Et harum mollitia sit impedit velit.
-              Ullam illum earum, voluptatem debitis at quae nemo modi! Illum
-              corrupti voluptatibus architecto fugiat ipsum esse rem accusamus
-              dolor, cum optio laborum, odit totam corporis assumenda veniam
-              laudantium commodi cumque inventore nesciunt ea pariatur!
-              officiis.
+              Architecto aspeniam laudantium commodi cumque inventore nesciunt
+              ea pariatur! officiis.
             </p>
             <div className='flex justify-center items-center mt-4'>
               <Link href='/portfolio' className='button'>
                 My PortFolio &gt;
               </Link>
             </div>
-
+            {/* 
             <div
               className='scroller'
               style={{ position: 'absolute' }}
@@ -65,33 +57,64 @@ export default function Experience() {
               data-speed='slow'
             >
               <div className='scroller__inner'>
-                <Image src='/images/clang.svg' width='50' height={50} alt='' />
-                <Image src='/images/java.svg' width='50' height={50} alt='' />
-                <Image src='/images/js.svg' width='50' height={50} alt='' />
+                <Image
+                  src='/images/clang.svg'
+                  width='50'
+                  height={50}
+                  alt='clang-icon'
+                />
+                <Image
+                  src='/images/java.svg'
+                  width='50'
+                  height={50}
+                  alt='java-icon'
+                />
+                <Image
+                  src='/images/js.svg'
+                  width='50'
+                  height={50}
+                  alt='js-icon'
+                />
                 <Image
                   src='/images/mongodb.svg'
                   width='50'
                   height={50}
-                  alt=''
+                  alt='mongodb-icon'
                 />
-                <Image src='/images/nextjs.svg' width='50' height={50} alt='' />
-                <Image src='/images/tekton.svg' width='50' height={50} alt='' />
-                <Image src='/images/ts.svg' width='50' height={50} alt='' />
+
                 <Image
-                  src='/images/postgre.svg'
+                  src='/images/tekton.svg'
                   width='50'
                   height={50}
-                  alt=''
+                  alt='tekton-icon'
                 />
-                <Image src='/images/nextjs.svg' width='50' height={50} alt='' />
+
+                <Image
+                  src='/images/ts.svg'
+                  width='50'
+                  height={50}
+                  alt='ts-icon'
+                />
+                <Image
+                  src='/images/nextjs.svg'
+                  width='50'
+                  height={50}
+                  alt='nextjs-icon'
+                />
                 <Image
                   src='/images/reactjs.svg'
                   width='50'
                   height={50}
-                  alt=''
+                  alt='reactjs-icon'
+                />
+                <Image
+                  src='/images/postgre.svg'
+                  width='50'
+                  height={50}
+                  alt='postgre-icon'
                 />
               </div>
-            </div>
+            </div> */}
           </section>
         </article>
       </Article>

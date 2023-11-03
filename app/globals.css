@@ -46,7 +46,7 @@ body {
 }
 
 .button {
-  @apply bg-cyan-300 dark:bg-main text-primary py-2 px-10 rounded font-medium;
+  @apply bg-cyan-300 dark:bg-main text-primary py-1 md:py-2 px-5 md:px-10 rounded font-medium;
 }
 
 .cross-nav {
@@ -58,5 +58,5 @@ body {
 }
 
 .portfolio-paragraph {
-  @apply indent-10 text-sm text-black dark:text-white mt-5;
+  @apply indent-10 text-xs md:text-sm text-black dark:text-white mt-5;
 }
