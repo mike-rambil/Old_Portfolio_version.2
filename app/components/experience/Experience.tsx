@@ -36,10 +36,10 @@ export default function Experience() {
   return (
     <>
       <Article>
-        <article>
-          <section className='max-w-xl'>
+        <article className='mb-16'>
+          <section className='md:max-w-xl' style={{ position: 'relative' }}>
             <h2 className='portfolio-h2'>Work</h2>
-            <p className='portfolio-paragraph'>
+            <p className='portfolio-paragraph max-w-xl'>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Architecto aspernatur aperiam sit nesciunt reiciendis molestiae?
               Reprehenderit repudiandae, perspiciatis velit beatae dolorum minus
@@ -58,7 +58,12 @@ export default function Experience() {
               </Link>
             </div>
 
-            <div className='scroller' data-direction='right' data-speed='slow'>
+            <div
+              className='scroller'
+              style={{ position: 'absolute' }}
+              data-direction='right'
+              data-speed='slow'
+            >
               <div className='scroller__inner'>
                 <Image src='/images/clang.svg' width='50' height={50} alt='' />
                 <Image src='/images/java.svg' width='50' height={50} alt='' />

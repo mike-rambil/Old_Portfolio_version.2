@@ -21,20 +21,20 @@ export default function Hero() {
         transition={{ duration: 0.4, type: 'easeInOut' }}
       >
         <div className='flex flex-col-reverse md:flex-row w-96 md:w-full mt-4 '>
-          <div className='flex md:flex-col   md:justify-center items-center'>
+          <div className='flex flex-col justify-center items-left'>
             <div>
-              <h1 className='text-4xl font-semibold text-lightAccent  dark:text-secondary'>
+              <h1 className='text-4xl font-semibold text-lightAccent  dark:text-secondary mt-5'>
                 Micheal Palliparambil
               </h1>
             </div>
-            <div className='flex flex-col  md:flex md:flex-row gap-3 text-sm text-lightAccent dark:dark:text-secondary'>
+            <div className='flex gap-3 text-sm text-lightAccent dark:dark:text-secondary'>
               <h3 className='hidden md:block'>Full Stack Developer -</h3>
-              <h3 className=' md:hidden'>Developer </h3>
+              <h3 className=' md:hidden '>Developer -</h3>
               <h3>Designer -</h3>
               <h3>Artist</h3>
             </div>
           </div>
-          <div className=' bg-neutral1 rounded-tl-full rounded-tr-full md:rounded-tr-none flex mx-auto border-b-2 border-main'>
+          <div className=' bg-neutral1 rounded-tl-full rounded-tr-full md:rounded-tr-none flex mx-auto border-b-2 border-main md:mt-16'>
             <Image
               alt="Micheal Palliparambil's Picture"
               src={hero}
@@ -45,23 +45,32 @@ export default function Hero() {
           </div>
         </div>
         <div className='max-w-2xl h-[50px] mt-5 text-center flex justify-center items-center bg-neutral1 text-white dark:text-gray-500 font-extrabold rounded-md'>
-          <span className='text-sm hover:text-white'>
-            Hello, I’m a developer
-          </span>
-          <span className='hidden md:block md:flex md:items-center'>
-            <span className='text-white dark:text-gray-500 ml-3 text-sm hover:text-white'>
-              based in
+          <div className='hidden md:block'>
+            <span className='text-sm hover:text-white'>
+              Hello, I’m a developer
             </span>
+            <span className='hidden md:block md:flex md:items-center'>
+              <span className='text-white dark:text-gray-500 ml-3 text-sm hover:text-white'>
+                based in
+              </span>
+              <span className='text-main mx-1 ml-4 text-1xl hover:text-white'>
+                CHICAGO,
+              </span>
+              <span className='text-accent mx-1 text-1xl hover:text-white'>
+                IL.
+              </span>
+            </span>
+            <span className='md:hidden'>
+              based in <span className='text-main '>CHICAGO,</span> IL.
+            </span>
+          </div>
+          <div className='block md:hidden text-xs'>
+            Hello, I’m a developer based in
             <span className='text-main mx-1 ml-4 text-1xl hover:text-white'>
               CHICAGO,
             </span>
-            <span className='text-accent mx-1 text-1xl hover:text-white'>
-              IL.
-            </span>
-          </span>
-          <span className='md:hidden'>
-            based in <span className='text-main '>CHICAGO,</span> IL.
-          </span>
+            IL.
+          </div>
         </div>
       </motion.section>
     </>
