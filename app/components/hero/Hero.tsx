@@ -20,7 +20,7 @@ export default function Hero() {
         variants={variants}
         transition={{ duration: 0.4, type: 'easeInOut' }}
       >
-        <div className='flex flex-col-reverse md:flex-row w-96 md:w-full '>
+        <div className='flex flex-col-reverse md:flex-row w-96 md:w-full mt-4 '>
           <div className='flex md:flex-col   md:justify-center items-center'>
             <div>
               <h1 className='text-4xl font-semibold text-lightAccent  dark:text-secondary'>

@@ -46,11 +46,15 @@ body {
 }
 
 .button {
-  @apply bg-lightAccent dark:bg-main text-primary;
+  @apply bg-cyan-300 dark:bg-main text-primary py-2 px-10 rounded font-medium;
+}
+
+.cross-nav {
+  @apply bg-main;
 }
 
 .portfolio-h2 {
-  @apply text-xl font-semibold border-b-[1px] text-black dark:text-main mt-5;
+  @apply text-xl font-semibold border-b-[1px] border-black dark:border-secondary text-black dark:text-main mt-5;
 }
 
 .portfolio-paragraph {
