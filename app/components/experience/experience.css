@@ -49,3 +49,15 @@
     transform: translate(calc(-50% - 0.5rem));
   }
 }
+
+/* @media screen and (max-width: 768px) {
+  .scroller {
+    max-width: 300px;
+  }
+} */
+
+@media screen and (max-width: 480px) {
+  .scroller {
+    max-width: 300px;
+  }
+}

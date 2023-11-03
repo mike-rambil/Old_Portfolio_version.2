@@ -49,7 +49,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className='flex min-h-screen flex-col items-center p-12 bg-light  dark:bg-primary'>
+    <main className='flex min-h-screen max-w-full flex-col items-center p-12 bg-light  dark:bg-primary'>
       <Hero />
       <Experience />
       <BioSocials />

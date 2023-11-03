@@ -46,7 +46,7 @@ body {
 }
 
 .button {
-  @apply bg-cyan-300 dark:bg-main text-primary py-1 md:py-2 px-5 md:px-10 rounded font-medium;
+  @apply bg-cyan-300 dark:bg-main hover:bg-accent transition-transform duration-200 hover:translate-x-7 text-primary py-1 md:py-2 px-5 md:px-10 rounded font-medium;
 }
 
 .cross-nav {

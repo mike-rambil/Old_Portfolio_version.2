@@ -37,7 +37,10 @@ export default function Experience() {
     <>
       <Article>
         <article className='mb-16'>
-          <section className='md:max-w-xl' style={{ position: 'relative' }}>
+          <section
+            className='md:max-w-xl'
+            style={{ position: 'relative', overflowX: 'hidden' }}
+          >
             <h2 className='portfolio-h2'>Work</h2>
             <p className='portfolio-paragraph max-w-xl'>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -49,10 +52,13 @@ export default function Experience() {
                 My PortFolio &gt;
               </Link>
             </div>
-            {/* 
-            <div
+
+            {/* <div
               className='scroller'
-              style={{ position: 'absolute' }}
+              style={{
+                // position: 'absolute',
+                overflow: 'hidden',
+              }}
               data-direction='right'
               data-speed='slow'
             >

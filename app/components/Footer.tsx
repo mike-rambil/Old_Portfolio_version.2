@@ -1,3 +1,3 @@
 export default function Footer() {
-  return <footer className='bg-primary'></footer>;
+  return <footer className='max-w-screen bg-primary'></footer>;
 }
