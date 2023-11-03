@@ -18,12 +18,11 @@ export default function RootLayout({
   const { theme } = useDarkMode();
 
   return (
+    //@ts-ignore
     <html lang='en' className={theme}>
       <body className={fira_Code.className}>
         <Main>{children}</Main>
       </body>
-
-      <Script src='https://unpkg.com/boxicons@2.1.4/dist/boxicons.js' />
     </html>
   );
 }
