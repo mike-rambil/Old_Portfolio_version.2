@@ -52,6 +52,7 @@ export default function Navbar() {
                   border='square'
                   size='md'
                   color='orange'
+                  //@ts-ignore
                 ></box-icon>
               ) : (
                 //@ts-ignore
@@ -62,6 +63,7 @@ export default function Navbar() {
                   border='square'
                   size='md'
                   color='black'
+                  //@ts-ignore
                 ></box-icon>
               )}
             </button>
