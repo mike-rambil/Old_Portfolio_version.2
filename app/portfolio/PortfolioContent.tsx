@@ -21,7 +21,7 @@ export default function PortfolioContent() {
     <Article>
       <main className='flex flex-col items-center p-12 bg-lighdark:bg-primary'>
         <section className='max-w-2xl'>
-          <h1 className='text-center text-2xl md:text-4xl mb-16 font-bold'>
+          <h1 className='text-center text-black dark:text-secondary text-2xl md:text-4xl mb-16 font-bold'>
             Portfolio
           </h1>
           <motion.ul
@@ -63,7 +63,10 @@ export default function PortfolioContent() {
                     height={150}
                     src={`/portfolio/images/${project.images[0]}`}
                   />
-                  <p key={index} className='my-8 max-w-xs text-xs'>
+                  <p
+                    key={index}
+                    className='text-black dark:text-white my-8 max-w-xs text-xs'
+                  >
                     {project?.short_description}
                   </p>
                 </Link>
