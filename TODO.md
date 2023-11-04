@@ -6,15 +6,15 @@ Project Description
 
 ### Todo
 
-- [ ] Add FormSpree  
 - [ ] Change Infinity Scroll Icons to Better Ones  
-- [ ] Navbar Drop Down: Unset Y  
 - [ ] Canonical Url: IMP  
 - [ ] Opacity Issue for the Drop Down Menu  
 - [ ] Add Media for Sam Galaxy S8+ & Galaxy Fold  
 
 ### In Progress
 
+- [ ] Add FormSpree  
+- [ ] Navbar Drop Down: Unset Y  
 
 ### Done ✓
 
