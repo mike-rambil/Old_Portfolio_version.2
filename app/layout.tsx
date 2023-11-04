@@ -1,6 +1,7 @@
 'use client';
 
 // import 'boxicons';
+import { Analytics } from '@vercel/analytics/react';
 import { Fira_Code } from 'next/font/google';
 import Main from './components/layouts/Main';
 import './globals.css';
@@ -20,7 +21,10 @@ export default function RootLayout({
     //@ts-ignore
     <html lang='en' className={theme}>
       <body className={fira_Code.className}>
-        <Main>{children}</Main>
+        <Main>
+          {children}
+          <Analytics />
+        </Main>
       </body>
     </html>
   );
