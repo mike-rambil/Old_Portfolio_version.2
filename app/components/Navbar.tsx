@@ -47,7 +47,7 @@ export default function Navbar() {
 
         {/* Right Side */}
         <div className='flex'>
-          <div className='flex mr-4 w-16'>
+          <div className='flex mr-4 '>
             <button onClick={handleDarkClick}>
               {isDark ? (
                 // @ts-ignore
