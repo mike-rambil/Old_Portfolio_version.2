@@ -20,7 +20,7 @@ export default function Page({ params }: { params: { id: string } }) {
         <article className='flex min-h-screen max-w-full flex-col  items-center p-12 bg-light  dark:bg-primary'>
           <div className='flex flex-col items-center mt-14 bg-lighdark:bg-primary '>
             <div className='max-w-2xl  '>
-              <h1 className='text-center text-black dark:text-secondary text-3xl md:text-4xl mb-16 md:mt-[8rem] font-bold '>
+              <h1 className='text-center text-black dark:text-secondary text-2xl md:text-4xl mb-16 md:mt-[8rem] font-bold '>
                 {current?.name}
               </h1>
               <div className='w-full transition-transform duration-200 hover:scale-95'>
