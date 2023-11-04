@@ -42,7 +42,6 @@ export default function Experience() {
             // style={{ position: 'relative', overflowX: 'hidden' }}
             style={{ overflowX: 'hidden' }}
           >
-            <h2 className='portfolio-h2'>Work</h2>
             <p className='portfolio-paragraph max-w-xl'>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Architecto aspeniam laudantium commodi cumque inventore nesciunt

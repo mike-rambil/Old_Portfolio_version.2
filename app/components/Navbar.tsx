@@ -35,7 +35,13 @@ export default function Navbar() {
         {/*   LEFT SIDE Logo */}
         <div className='ml-3 md:mr-0'>
           <Link href={'/'}>
-            <Image alt='Micheal Palliparambil Logo' src={Logo} />
+            <Image
+              alt='Micheal Palliparambil Logo'
+              src={Logo}
+              width={36}
+              height={35}
+              priority
+            />
           </Link>
         </div>
 

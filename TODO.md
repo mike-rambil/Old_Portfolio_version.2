@@ -14,8 +14,8 @@ Project Description
 ### In Progress
 
 - [ ] Add FormSpree  
-- [ ] Navbar Drop Down: Unset Y  
 
 ### Done ✓
 
+- [x] Navbar Drop Down: Unset Y  
 
