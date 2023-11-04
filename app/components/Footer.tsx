@@ -1,9 +1,11 @@
 'use client';
 
 import Script from 'next/script';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 export default function Footer() {
+  const [isVisible, setIsVisible] = useState(false);
+
   useEffect(() => {
     //@ts-ignore
     window.formbutton =
@@ -49,8 +51,15 @@ export default function Footer() {
           backgroundColor: '#1c2c49',
         },
       },
-      initiallyVisible: false,
+      initiallyVisible: isVisible,
     });
+  }, [isVisible]);
+
+  //To make the form appear after the specified timeout
+  useEffect(() => {
+    setTimeout(() => {
+      setIsVisible(true);
+    }, 10000);
   }, []);
 
   return (
