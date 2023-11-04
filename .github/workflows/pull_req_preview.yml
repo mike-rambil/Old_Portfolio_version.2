@@ -1,4 +1,4 @@
-#This GitHub Actions Code automatically triggers a preview URL for the Pull request!
+#This GitHub Actions Code automatically triggers a preview URL for the Pull request.
 name: Deploy to Vercel on PR
 
 on:
