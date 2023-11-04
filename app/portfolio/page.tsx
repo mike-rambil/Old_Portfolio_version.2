@@ -44,7 +44,7 @@ export const metadata: Metadata = {
 
 export default function Portfolio() {
   return (
-    <section className='bg-light dark:bg-primary min-h-screen p-24 '>
+    <section className='flex min-h-screen max-w-full flex-col items-center p-12 bg-light  dark:bg-primary'>
       <PortfolioContent />
     </section>
   );

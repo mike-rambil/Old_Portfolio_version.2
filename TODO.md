@@ -13,6 +13,7 @@ Project Description
 - [ ] Fix Drop Down Edges
 - [ ] Add New Projects
 - [ ] MetaDataBase Issue
+- [ ] Add Variant Animation
 
 ### In Progress
 
