@@ -8,7 +8,7 @@ import Hero from './components/hero/Hero';
 // TODO: Sitemap
 // TODO: Canonical
 export const metadata: Metadata = {
-  title: 'Micheal Palliparambil - Homepage',
+  title: 'Homepage | Micheal Palliparambil',
   description:
     'Micheal Palliparambil is a software developer based in Chicago, IL. Checkout his Website here! ',
   keywords: [
