@@ -30,7 +30,7 @@ export default function Navbar() {
   };
 
   return (
-    <header className='fixed w-screen top-0 h-14 flex backdrop-blur-[0px] '>
+    <header className='fixed w-screen top-0 h-14 flex backdrop-blur-[1px] '>
       <section className=' h-full max-w-4xl w-full   mx-auto flex justify-between items-center'>
         {/*   LEFT SIDE Logo */}
         <div className='ml-3 md:mr-0'>
@@ -80,7 +80,11 @@ export default function Navbar() {
               </button>
             </div>
             {/* For Mobile Device --Animated Transition */}
-            <div id='navbar' className='navbar '>
+            <div
+              id='navbar'
+              className='navbar '
+              style={{ position: 'absolute' }}
+            >
               <nav className='w-full text-right'>
                 <li className='  cursor-pointer  font-semibold mb-5 '>
                   <a href={'/portfolio'}>
