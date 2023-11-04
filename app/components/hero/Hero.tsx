@@ -26,6 +26,17 @@ export default function Hero() {
               <h1 className='ml-14 md:ml-0 text-4xl font-semibold text-lightAccent  dark:text-secondary mt-5 '>
                 Micheal Palliparambil
               </h1>
+              <box-icon
+                type='solid'
+                name='sun'
+                animation='tada-hover'
+                border='square'
+                size='md'
+                color='orange'
+                //@ts-ignore
+              >
+                ss
+              </box-icon>
             </div>
             <div className='ml-14 md:ml-0  flex gap-3 text-sm text-lightAccent dark:dark:text-secondary'>
               <h3 className='hidden md:block'>Full Stack Developer -</h3>

@@ -50,7 +50,7 @@ export default function Navbar() {
           <div className='flex mr-4 w-16'>
             <button onClick={handleDarkClick}>
               {isDark ? (
-                //@ts-ignore
+                // @ts-ignore
                 <box-icon
                   type='solid'
                   name='sun'
