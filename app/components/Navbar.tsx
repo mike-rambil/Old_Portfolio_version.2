@@ -90,12 +90,12 @@ export default function Navbar() {
               </button>
             </div>
             {/* For Mobile Device --Animated Transition */}
-            <div id='navbar' className='navbar '>
+            <div id='navbar' className='navbar bg-[#0b0b29] dark:bg-[#1c2c49] '>
               <nav className='w-full text-right'>
                 <li className='  cursor-pointer  font-semibold mb-5 '>
                   <Link href={'/portfolio'}>
                     <div className=''>
-                      <div className='text-white text-sm hover:text-black  hover:underline  '>
+                      <div className='text-secondary dark:text-white text-sm hover:text-black  hover:underline  '>
                         Portfolio
                       </div>
                     </div>
@@ -104,7 +104,7 @@ export default function Navbar() {
                 <li className='cursor-pointer  font-semibold   '>
                   <Link href={'/'} className=' '>
                     <div className=''>
-                      <div className='  text-white text-sm hover:text-black hover:underline'>
+                      <div className=' text-secondary dark:text-white text-sm hover:text-black hover:underline'>
                         Blog
                       </div>
                     </div>
