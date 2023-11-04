@@ -48,7 +48,7 @@ export default function Page({ params }: { params: { id: string } }) {
                       >
                         {current?.links.front_end}
                         {/* @ts-ignore */}
-                        <box-icon name='link-external' size='xs' color='pink'>
+                        <box-icon name='link-external' size='xs' color='purple'>
                           {/* @ts-ignore */}
                         </box-icon>
                       </a>
@@ -66,7 +66,7 @@ export default function Page({ params }: { params: { id: string } }) {
                       >
                         {current?.links.back_end}
                         {/* @ts-ignore */}
-                        <box-icon name='link-external' size='xs' color='pink'>
+                        <box-icon name='link-external' size='xs' color='purple'>
                           {/* @ts-ignore */}
                         </box-icon>
                       </a>
@@ -83,7 +83,7 @@ export default function Page({ params }: { params: { id: string } }) {
                       >
                         {current?.links.github}
                         {/* @ts-ignore */}
-                        <box-icon name='link-external' size='xs' color='pink'>
+                        <box-icon name='link-external' size='xs' color='purple'>
                           {/* @ts-ignore */}
                         </box-icon>
                       </a>
@@ -99,7 +99,7 @@ export default function Page({ params }: { params: { id: string } }) {
                     >
                       {current?.stack}
                       {/* @ts-ignore */}
-                      <box-icon name='coin-stack' size='xs' color='pink'>
+                      <box-icon name='coin-stack' size='xs' color='purple'>
                         {/* @ts-ignore */}
                       </box-icon>
                     </a>
@@ -114,7 +114,7 @@ export default function Page({ params }: { params: { id: string } }) {
                     >
                       {current?.stack}
                       {/* @ts-ignore */}
-                      <box-icon name='coin-stack' size='xs' color='pink'>
+                      <box-icon name='coin-stack' size='xs' color='purple'>
                         {/* @ts-ignore */}
                       </box-icon>
                     </a>
