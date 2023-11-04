@@ -32,7 +32,7 @@ export default function PortfolioContent() {
     <Article>
       <main className='flex flex-col items-center p-12 bg-lighdark:bg-primary'>
         <section className='max-w-2xl'>
-          <h1 className='text-center text-black dark:text-secondary text-2xl md:text-4xl mb-16 font-bold'>
+          <h1 className='text-center text-black dark:text-secondary text-2xl md:text-4xl mb-16 font-bold '>
             Portfolio
           </h1>
           <motion.ul
@@ -51,7 +51,7 @@ export default function PortfolioContent() {
                   className='transition-transform duration-200 hover:scale-105'
                 >
                   <Image
-                    className='rounded-lg cursor-pointer'
+                    className='rounded-lg cursor-pointer shadow-2xl shadow-gray-950 hover:shadow-cyan-500/40'
                     alt={project.short_description}
                     width={400}
                     height={150}

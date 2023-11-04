@@ -26,7 +26,7 @@ export default function Page({ params }: { params: { id: string } }) {
               <h1 className='text-center text-black dark:text-secondary text-2xl md:text-4xl mb-16 md:mt-[8rem] font-bold '>
                 {current?.name}
               </h1>
-              <div className='w-full transition-transform duration-200 hover:scale-95'>
+              <div className='w-full transition-transform duration-200 hover:scale-95 '>
                 <Link className='button ' href='/portfolio'>
                   &lt; Go Back
                 </Link>
@@ -125,7 +125,8 @@ export default function Page({ params }: { params: { id: string } }) {
                 <div className='flex items-center flex-col '>
                   {current?.images.map((links, index) => (
                     <Image
-                      className='rounded-lg my-5'
+                      key={index}
+                      className='rounded-lg my-5 shadow-2xl shadow-gray-950 hover:shadow-cyan-500/40'
                       alt={current.name + index}
                       src={`/portfolio/images/${links}`}
                       height={300}
@@ -137,7 +138,8 @@ export default function Page({ params }: { params: { id: string } }) {
                 <div className='flex justify-center flex-wrap'>
                   {current?.imagesMobile.map((links, index) => (
                     <Image
-                      className='rounded-lg my-5 inline-block mx-5'
+                      key={index}
+                      className='rounded-lg my-5 inline-block mx-5 shadow-2xl shadow-gray-950 hover:shadow-cyan-500/40'
                       alt={current.name + index}
                       src={`/portfolio/images/${links}`}
                       height={300}
