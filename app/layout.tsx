@@ -2,7 +2,6 @@
 
 // import 'boxicons';
 import { Fira_Code } from 'next/font/google';
-import Script from 'next/script';
 import Main from './components/layouts/Main';
 import './globals.css';
 import { useDarkMode } from './utils/toggleLightMode/useDarkMode';
