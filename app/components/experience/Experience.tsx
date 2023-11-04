@@ -38,7 +38,7 @@ export default function Experience() {
       <Article>
         <article className='mb-16'>
           <section
-            className='md:max-w-xl'
+            className='max-[320px]:w-[275px] md:max-w-xl'
             // style={{ position: 'relative', overflowX: 'hidden' }}
             style={{ overflowX: 'hidden' }}
           >
