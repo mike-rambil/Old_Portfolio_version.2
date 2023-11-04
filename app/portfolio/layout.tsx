@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Micheal Palliparambil - Portfolio',
+  title: 'Portfolio | Micheal Palliparambil',
   description:
     'Micheal Palliparambil is a software developer based in Chicago, IL. Checkout his PortFolio here! ',
   keywords: [
