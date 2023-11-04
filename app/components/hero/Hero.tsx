@@ -44,7 +44,7 @@ export default function Hero() {
             />
           </div>
         </div>
-        <div className='max-w-2xl h-[50px] mt-5 text-center flex justify-center items-center bg-neutral1 text-white dark:text-gray-500 font-extrabold rounded'>
+        <div className='max-w-lg md:max-w-2xl h-[50px] mx-2 mt-5 text-center flex justify-center items-center bg-neutral1 text-white dark:text-gray-500 font-extrabold rounded'>
           <div className='hidden md:block'>
             {/* For Tablets and Up -> */}
             <span className='text-sm hover:text-white '>

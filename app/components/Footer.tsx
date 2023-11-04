@@ -55,7 +55,7 @@ export default function Footer() {
 
   return (
     <footer className='max-w-screen bg-primary text-slate-600 flex justify-center py-8'>
-      <small className='text-center'>
+      <small className='text-center '>
         &copy; 2024 Micheal Palliparambil. All Rights Reserved.
       </small>
       <Script src='https://formspree.io/js/formbutton-v1.min.js' defer></Script>
