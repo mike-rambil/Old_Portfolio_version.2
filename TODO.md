@@ -6,6 +6,7 @@ Project Description
 
 ### Todo
 
+- [ ] Make Images in  /portfolio bigger for mobile screens , also be consistent with the inner images  
 - [ ] Add Headers for dynamic renders  
 - [ ] Enquire and Fix responsive Image Tag  
 - [ ] Fix Speed Tests  
