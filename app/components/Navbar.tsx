@@ -2,13 +2,17 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useDarkMode } from '../utils/toggleLightMode/useDarkMode';
 import './navbar.css';
 import Logo from '/public/mike-rambil-logo.svg';
 export default function Navbar() {
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(false);
   const { theme, toggleTheme } = useDarkMode();
+
+  useEffect(() => {
+    if (theme == 'dark') setIsDark(true);
+  }, []);
 
   function handleDarkClick() {
     setIsDark((prevState) => !prevState);
