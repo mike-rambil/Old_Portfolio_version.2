@@ -49,7 +49,7 @@ export default function Footer() {
           backgroundColor: 'red',
         },
       },
-      initiallyVisible: true,
+      initiallyVisible: false,
     });
   }, []);
 
