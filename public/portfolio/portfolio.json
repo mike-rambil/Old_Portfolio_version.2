@@ -3,7 +3,12 @@
     {
       "name": "sociopedia",
       "short_description": "Sociopedia is a full-stack social media application",
-      "images": [],
+      "images": [
+        "sociopedia-1.png",
+        "sociopedia-2.png",
+        "sociopedia-3.png",
+        "sociopedia-4.png"
+      ],
       "links": {
         "front_end": "https://sociopedia-front-end.onrender.com/",
         "back_end": "https://sociopedia-backend-spm6.onrender.com",
@@ -15,7 +20,13 @@
     {
       "name": "SushiMan",
       "short_description": "Experience the authentic flavors of Japanese cuisine right at your doorstep",
-      "images": [],
+      "images": [
+        "sushiman-1.png",
+        "sushiman-2.png",
+        "sushiman-3.png",
+        "sushiman-4.png",
+        "sushiman-5.png"
+      ],
       "links": {
         "front_end": "https://sushi-store-mike.vercel.app/",
         "github": "https://github.com/mike-rambil/sushi-store"
@@ -26,7 +37,12 @@
     {
       "name": "Dalle Clone",
       "short_description": "The project aims to create a clone of the popular OpenAI's DALL·E, an image generation model",
-      "images": [],
+      "images": [
+        "dalle-clone-1.png",
+        "dalle-clone-2.png",
+        "dalle-clone-3.png",
+        "dalle-clone-4.png"
+      ],
       "links": {
         "front_end": "https://dalle-clone-mike-rambil.vercel.app/",
         "back_end": "https://dalle-clone-nxb4.onrender.com/",
@@ -38,7 +54,12 @@
     {
       "name": "MovieLand",
       "short_description": "The project aims to create a clone of the popular OpenAI's DALL·E, an image generation model",
-      "images": [],
+      "images": [
+        "movie-land-1.png",
+        "movie-land-2.png",
+        "movie-land-3.png",
+        "movie-land-4.png"
+      ],
       "links": {
         "front_end": "https://movie-land-mike-rambil.vercel.app/",
         "back_end": "https://www.imdb.com/",
@@ -50,7 +71,12 @@
     {
       "name": "EcomVision",
       "short_description": "EcomVision is a comprehensive and responsive full-stack dashboard built using the MERN",
-      "images": [],
+      "images": [
+        "ecom-vision-1.png",
+        "ecom-vision-2.png",
+        "ecom-vision-3.png",
+        "ecom-vision-4.png"
+      ],
       "links": {
         "front_end": "https://ecomvision-frontend-wiqf.onrender.com/dashboard",
         "back_end": "https://ecomvision-backend-ez1c.onrender.com",
@@ -62,7 +88,7 @@
     {
       "name": "GPT-3",
       "short_description": "About GPT-3 and OpenAI",
-      "images": [],
+      "images": ["gpt-3-1.png", "gpt-3-2.png", "gpt-3-3.png", "gpt-3-4.png"],
       "links": {
         "front_end": "https://gpt-3-mockup-by-mike-rambil.vercel.app/",
         "github": "https://github.com/mike-rambil/gpt-3"
@@ -73,7 +99,13 @@
     {
       "name": "KaamSeva",
       "short_description": "An online platform to discover your ideal career paths and find fulfilling employment",
-      "images": [],
+      "images": [
+        "kaamseva-1.png",
+        "kaamseva-2.png",
+        "kaamseva-3.png",
+        "kaamseva-4.png",
+        "kaamseva-5.png"
+      ],
       "links": {
         "front_end": "https://kaamseva-frontend.onrender.com/login",
         "back_end": "https://kaamseva-backend.onrender.com",
@@ -85,7 +117,12 @@
     {
       "name": "BlogMarine",
       "short_description": "A Full Stack Blog Application: Post your blogs here!",
-      "images": [],
+      "images": [
+        "blogmarine-1.png",
+        "blogmarine-2.png",
+        "blogmarine-3.png",
+        "blogmarine-4.png"
+      ],
       "links": {
         "front_end": "https://blogmarine-frontend.onrender.com/",
         "back_end": "https://blogmarine-backend.onrender.com",
@@ -97,7 +134,12 @@
     {
       "name": "Pro Admin Dashboard",
       "short_description": "The dashboard is designed to be helpful for admins to categorize teams, track visitors, and more",
-      "images": [],
+      "images": [
+        "pro-admin-dashboard-1.png",
+        "pro-admin-dashboard-2.png",
+        "pro-admin-dashboard-3.png",
+        "pro-admin-dashboard-4.png"
+      ],
       "links": {
         "front_end": "https://admin-dashboard-mike-rambil.onrender.com/",
         "back_end": "https://e-commerce-backend-4cqg.onrender.com",
@@ -109,7 +151,7 @@
     {
       "name": "Natours",
       "short_description": "Server Side Rendered Tour Application",
-      "images": [],
+      "images": ["natours-1.png", "natours-2.png"],
       "links": {
         "front_end": "https://natours-qnzb.onrender.com/",
         "back_end": "https://natours-qnzb.onrender.com/",
@@ -121,7 +163,12 @@
     {
       "name": "Old Portfolio Website",
       "short_description": "My first over-the-top portfolio website that I developed with so much passion but not so much responsiveness :)",
-      "images": [],
+      "images": [
+        "older-portfolio-1.png",
+        "older-portfolio-2.png",
+        "older-portfolio-3.png",
+        "older-portfolio-4.png"
+      ],
       "links": {
         "front_end": "https://micheal-rambil.vercel.app/",
         "github": "https://github.com/mike-rambil/Micheal"
