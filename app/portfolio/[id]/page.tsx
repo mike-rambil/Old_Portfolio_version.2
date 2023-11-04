@@ -13,10 +13,13 @@ const getPost = (params: string) => {
 export default function Page({ params }: { params: { id: string } }) {
   const current = getPost(params.id);
 
-  console.log(current);
   return (
     <>
       <Article>
+        {/* <head>
+          <title>{current?.name}</title>
+          <meta name='description' content={current?.short_description} />
+        </head> */}
         <article className='flex min-h-screen max-w-full flex-col  items-center p-12 bg-light  dark:bg-primary'>
           <div className='flex flex-col items-center mt-14 bg-lighdark:bg-primary '>
             <div className='max-w-2xl  '>
