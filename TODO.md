@@ -6,16 +6,14 @@ Project Description
 
 ### Todo
 
-- [ ] Change Infinity Scroll Icons to Better Ones  
-- [ ] Canonical Url: IMP  
-- [ ] Opacity Issue for the Drop Down Menu  
-- [ ] Add Media for Sam Galaxy S8+ & Galaxy Fold  
+- [ ] Add Media for Sam Galaxy S8+ & Galaxy Fold
+- [ ] Opacity Issue for the Drop Down Menu
+- [ ] Canonical Url: IMP
+- [ ] Change Infinity Scroll Icons to Better Ones
+- [ ] Fix Drop Down Edges
+- [ ] Add New Projects
+- [ ] MetaDataBase Issue
 
 ### In Progress
 
-
 ### Done ✓
-
-- [x] Add FormSpree  
-- [x] Navbar Drop Down: Unset Y  
-

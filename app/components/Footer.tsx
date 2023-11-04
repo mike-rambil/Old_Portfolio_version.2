@@ -43,10 +43,10 @@ export default function Footer() {
       styles: {
         fontFamily: '"Fira Code", sans-serif',
         title: {
-          backgroundColor: 'red',
+          backgroundColor: '#1c2c49',
         },
         button: {
-          backgroundColor: 'red',
+          backgroundColor: '#1c2c49',
         },
       },
       initiallyVisible: false,
