@@ -5,13 +5,24 @@ import Link from 'next/link';
 import Article from '../components/layouts/Article';
 import data from './portfolio.json';
 
-const itemVariants: Variants = {
-  open: {
+const container = {
+  hidden: { opacity: 1, scale: 0 },
+  visible: {
     opacity: 1,
-    y: 0,
-    transition: { type: 'spring', stiffness: 300, damping: 24 },
+    scale: 1,
+    transition: {
+      delayChildren: 0.3,
+      staggerChildren: 0.2,
+    },
   },
-  closed: { opacity: 0, y: 20, transition: { duration: 0.2 } },
+};
+
+const item = {
+  hidden: { y: 20, opacity: 0 },
+  visible: {
+    y: 0,
+    opacity: 1,
+  },
 };
 
 export default function PortfolioContent() {
@@ -25,32 +36,15 @@ export default function PortfolioContent() {
             Portfolio
           </h1>
           <motion.ul
-            className='max-w-2xl'
-            variants={{
-              open: {
-                clipPath: 'inset(0% 0% 0% 0% round 10px)',
-                transition: {
-                  type: 'spring',
-                  bounce: 0,
-                  duration: 0.7,
-                  delayChildren: 0.3,
-                  staggerChildren: 0.05,
-                },
-              },
-              closed: {
-                clipPath: 'inset(10% 50% 90% 50% round 10px)',
-                transition: {
-                  type: 'spring',
-                  bounce: 0,
-                  duration: 0.3,
-                },
-              },
-            }}
+            className='max-w-2xl container'
+            variants={container}
+            initial='hidden'
+            animate='visible'
           >
             {portfolio.map((project, index) => (
               <motion.li
-                variants={itemVariants}
-                className='flex flex-col justify-center items-center '
+                variants={item}
+                className='flex flex-col justify-center items-center item '
               >
                 <Link
                   href='/'
