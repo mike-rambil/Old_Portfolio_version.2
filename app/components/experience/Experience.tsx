@@ -39,7 +39,8 @@ export default function Experience() {
         <article className='mb-16'>
           <section
             className='md:max-w-xl'
-            style={{ position: 'relative', overflowX: 'hidden' }}
+            // style={{ position: 'relative', overflowX: 'hidden' }}
+            style={{ overflowX: 'hidden' }}
           >
             <h2 className='portfolio-h2'>Work</h2>
             <p className='portfolio-paragraph max-w-xl'>
@@ -47,14 +48,14 @@ export default function Experience() {
               Architecto aspeniam laudantium commodi cumque inventore nesciunt
               ea pariatur! officiis.
             </p>
-            <div className='flex justify-center items-center mt-4'>
+            <div className='flex justify-center items-center mt-4 md:mt-10'>
               <Link href='/portfolio' className='button'>
                 My PortFolio &gt;
               </Link>
             </div>
 
             <div
-              className='scroller mt-2'
+              className='scroller mt-2 md:mt-10'
               style={{
                 // position: 'absolute',
                 overflow: 'hidden',

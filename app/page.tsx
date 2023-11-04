@@ -3,9 +3,10 @@ import BioSocials from './components/experience/BioSocials';
 import Experience from './components/experience/Experience';
 import Hero from './components/hero/Hero';
 
-// Todo: OpenGraph Protocol and Icons- https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadata-fields
-// Todo: robots.txt
-// Todo: Sitemap
+// TODO: OpenGraph Protocol and Icons- https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadata-fields
+// TODO: robots.txt
+// TODO: Sitemap
+// TODO: Canonical
 export const metadata: Metadata = {
   title: 'Micheal Palliparambil - Homepage',
   description:

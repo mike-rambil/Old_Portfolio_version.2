@@ -47,10 +47,10 @@ export default function Hero() {
         <div className='max-w-2xl h-[50px] mt-5 text-center flex justify-center items-center bg-neutral1 text-white dark:text-gray-500 font-extrabold rounded'>
           <div className='hidden md:block'>
             {/* For Tablets and Up -> */}
-            <span className='text-sm hover:text-white'>
+            <span className='text-sm hover:text-white '>
               Hello, I’m a developer
             </span>
-            <span className='hidden md:block md:flex md:items-center'>
+            <span className='hidden md:inline-flex md:flex md:items-center'>
               <span className='text-white dark:text-gray-500 ml-3 text-sm hover:text-white'>
                 based in
               </span>
