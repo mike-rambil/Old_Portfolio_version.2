@@ -89,13 +89,13 @@ export default function Navbar() {
             <div id='navbar' className='navbar '>
               <nav className='w-full text-right'>
                 <li className='  cursor-pointer  font-semibold mb-5 '>
-                  <a href={'/portfolio'}>
+                  <Link href={'/portfolio'}>
                     <div className=''>
                       <div className='text-white text-sm hover:text-black  hover:underline  '>
                         Portfolio
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </li>
                 <li className='cursor-pointer  font-semibold   '>
                   <Link href={'/'} className=' '>
