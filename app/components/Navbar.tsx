@@ -80,11 +80,7 @@ export default function Navbar() {
               </button>
             </div>
             {/* For Mobile Device --Animated Transition */}
-            <div
-              id='navbar'
-              className='navbar '
-              style={{ position: 'absolute' }}
-            >
+            <div id='navbar' className='navbar '>
               <nav className='w-full text-right'>
                 <li className='  cursor-pointer  font-semibold mb-5 '>
                   <a href={'/portfolio'}>
