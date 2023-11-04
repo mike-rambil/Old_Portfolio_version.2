@@ -50,7 +50,7 @@ export default function PortfolioContent() {
             {portfolio.map((project, index) => (
               <motion.li
                 variants={itemVariants}
-                className='flex flex-col justify-center items-center hover:scale-2'
+                className='flex flex-col justify-center items-center '
               >
                 <Link
                   href='/'

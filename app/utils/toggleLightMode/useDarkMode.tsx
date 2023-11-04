@@ -2,16 +2,18 @@ import { useEffect, useState } from 'react';
 
 export function useDarkMode() {
   const [theme, setTheme] = useState(() => {
-    if (typeof localStorage === 'undefined') {
-      // localStorage is not available, so use a default theme
-      return { theme: 'light', toggleTheme: () => {} };
-    }
-    return (
-      localStorage.getItem('theme') ||
-      (window.matchMedia('(prefers-color-scheme: dark)').matches
-        ? 'dark'
-        : 'light')
-    );
+    // if (typeof localStorage === 'undefined') {
+    //   // localStorage is not available, so use a default theme
+    //   return { theme: 'dark', toggleTheme: () => {} };
+    // }
+    // return (
+    //   localStorage.getItem('theme') ||
+    //   (window.matchMedia('(prefers-color-scheme: dark)').matches
+    //     ? 'dark'
+    //     : 'light')
+    // );
+
+    return 'dark';
   });
 
   useEffect(() => {
