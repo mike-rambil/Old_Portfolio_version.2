@@ -70,7 +70,7 @@ export default function Hero() {
           {/* For Mobile Screens */}
           <div className='block md:hidden text-xs text-light-secondary-900 dark:text-white'>
             Hello, I’m a developer based in
-            <span className='dark:text-main mx-1 ml-3 text-1xl hover:text-white text-white'>
+            <span className='dark:text-main mx-1 ml-3 text-1xl hover:text-white text-light-accent'>
               CHICAGO,
             </span>
             IL.
