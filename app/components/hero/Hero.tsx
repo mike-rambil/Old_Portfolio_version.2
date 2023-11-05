@@ -28,8 +28,8 @@ export default function Hero() {
                 Micheal Palliparambil
               </h1>
             </div>
-            <div className='ml-14 md:ml-0  flex gap-3 text-sm text-lightAccent dark:dark:text-secondary'>
-              <h3 className='hidden md:block'>Full Stack Developer -</h3>
+            <div className='ml-14 md:ml-0 flex justify-center gap-3 text-sm text-lightAccent dark:dark:text-secondary'>
+              <h3 className='hidden md:block '>Full Stack Developer -</h3>
               <h3 className=' md:hidden '>Developer -</h3>
               <h3>Designer -</h3>
               <h3>Artist</h3>
