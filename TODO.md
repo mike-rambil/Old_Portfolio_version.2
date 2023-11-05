@@ -6,10 +6,6 @@ Project Description
 
 ### Todo
 
-- [ ] Iphone SE REsposive Issue Hero  
-- [ ] Add FormSpree To Footer  
-- [ ] Add Skills  
-- [ ] Enquire and Fix responsive Image Tag  
 - [ ] Fix Speed Tests  
 - [ ] Canonical Url: IMP  
 - [ ] Change Infinity Scroll Icons to Better Ones  
@@ -22,9 +18,13 @@ Project Description
 
 ### In Progress
 
+- [ ] Add Skills  
+- [ ] Add FormSpree To Footer  
 
 ### Done ✓
 
+- [x] Enquire and Fix responsive Image Tag  
+- [x] Iphone SE REsposive Issue Hero  
 - [x] Opacity Issue for the Drop Down Menu  
 - [x] Make Images in /portfolio bigger for mobile screens , also be consistent with the inner images  
 - [x] Implement Link CallBack  

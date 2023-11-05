@@ -26,6 +26,7 @@ const config: Config = {
         'light-secondary': '#388697',
         'light-secondary-900': '#08415C',
         lightAccent: '#212326',
+        'light-accent': '#fbd38d',
       },
     },
   },
