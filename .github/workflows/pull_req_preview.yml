@@ -1,21 +1,21 @@
 #This GitHub Actions Code automatically triggers a preview URL for the Pull request.
-name: Deploy to Vercel on PR
+# name: Deploy to Vercel on PR
 
-on:
-  pull_request:
-    types:
-      - opened
+# on:
+#   pull_request:
+#     types:
+#       - opened
 
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
+# jobs:
+#   deploy:
+#     runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v2
 
-      - name: Install Vercel CLI
-        run: npm install vercel
+#       - name: Install Vercel CLI
+#         run: npm install vercel
 
-      - name: Deploy to Vercel
-        run: npx vercel --token ${{ secrets.VERCEL_TOKEN }}
+#       - name: Deploy to Vercel
+#         run: npx vercel --token ${{ secrets.VERCEL_TOKEN }}
