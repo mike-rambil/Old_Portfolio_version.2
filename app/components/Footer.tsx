@@ -80,7 +80,7 @@ export default function Footer() {
     <footer className='max-w-screen bg-[#e6c083] dark:bg-neutral1  flex flex-col justify-center py-8'>
       <div className='mx-auto mt-2 mb-10'>
         <button
-          className='bg-light-secondary dark:bg-main hover:bg-light-secondary transition-transform duration-200 hover:scale-105 text-black py-1 md:py-2 px-5 md:px-10 rounded font-bold shadow-md shadow-gray-950  mb-10'
+          className='bg-light-secondary dark:bg-main hover:bg-light-secondary transition-transform duration-200 hover:scale-105 text-light-secondary-900 dark:text-black py-1 md:py-2 px-5 md:px-10 rounded font-bold shadow-md shadow-gray-950  mb-10'
           onClick={handleClick}
         >
           Contact Me
