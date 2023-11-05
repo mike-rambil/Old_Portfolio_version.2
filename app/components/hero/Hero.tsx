@@ -24,7 +24,7 @@ export default function Hero() {
         <div className='max-[320px]:w-[275px] flex flex-col-reverse md:flex-row  md:w-full mt-4 '>
           <div className='flex flex-col justify-center items-left'>
             <div>
-              <h1 className='max-[320px]:text-sm px-14 md:ml-0 text-4xl font-semibold text-black  dark:text-secondary mt-5 '>
+              <h1 className='max-[320px]:text-sm px-11 md:ml-0 text-4xl font-semibold text-black  dark:text-secondary mt-5 '>
                 Micheal Palliparambil
               </h1>
             </div>
