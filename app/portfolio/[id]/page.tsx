@@ -45,6 +45,7 @@ export default function Page({ params }: { params: { id: string } }) {
                       <a
                         className='text-pink-600 dark:text-accent hover:underline'
                         href={current?.links.front_end}
+                        target='_blank'
                       >
                         {current?.links.front_end}
                         {/* @ts-ignore */}
@@ -63,6 +64,7 @@ export default function Page({ params }: { params: { id: string } }) {
                       <a
                         className='text-pink-600 dark:text-accent hover:underline'
                         href={current?.links.back_end}
+                        target='_blank'
                       >
                         {current?.links.back_end}
                         {/* @ts-ignore */}
@@ -80,6 +82,7 @@ export default function Page({ params }: { params: { id: string } }) {
                       <a
                         className='text-pink-600 dark:text-accent hover:underline'
                         href={current?.links.github}
+                        target='_blank'
                       >
                         {current?.links.github}
                         {/* @ts-ignore */}
