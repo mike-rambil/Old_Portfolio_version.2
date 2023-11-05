@@ -50,13 +50,20 @@ export default function PortfolioContent() {
                   href={`/portfolio/${index}`}
                   className='transition-transform duration-200 hover:scale-105'
                 >
-                  <Image
-                    className='rounded-lg cursor-pointer shadow-2xl shadow-gray-950 hover:shadow-cyan-500/40'
-                    alt={project.short_description}
-                    width={400}
-                    height={150}
-                    src={`/portfolio/images/${project.images[0]}`}
-                  />
+                  <div
+                    className='h-[150px] w-[300px] md:h-[203px] md:w-[400px]'
+                    style={{ position: 'relative' }}
+                  >
+                    <Image
+                      className='rounded-lg cursor-pointer shadow-2xl shadow-gray-950 hover:shadow-cyan-500/40'
+                      alt={project.short_description}
+                      // width={400}
+                      // height={150}
+                      fill
+                      src={`/portfolio/images/${project.images[0]}`}
+                    />
+                  </div>
+
                   <p
                     key={index}
                     className='text-black dark:text-white my-8 max-w-xs text-xs'
