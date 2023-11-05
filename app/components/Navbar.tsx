@@ -83,17 +83,20 @@ export default function Navbar() {
               <button onClick={handleClick}>
                 {' '}
                 <div id='menu' className='menu '>
-                  <div className='toggler cross-nav'></div>
-                  <div className='toggler cross-nav'></div>
-                  <div className='toggler cross-nav'></div>
+                  <div className='toggler cross-nav '></div>
+                  <div className='toggler cross-nav '></div>
+                  <div className='toggler cross-nav '></div>
                 </div>
               </button>
             </div>
             {/* For Mobile Device --Animated Transition */}
-            <div id='navbar' className='navbar bg-[#0b0b29] dark:bg-[#1c2c49] '>
+            <div
+              id='navbar'
+              className='navbar bg-light-secondary-900 dark:bg-[#1c2c49] '
+            >
               <nav className='w-full text-right'>
                 <li className='  cursor-pointer  font-semibold mb-5 '>
-                  <Link href={'/portfolio'}>
+                  <Link onClick={handleClick} href={'/portfolio'}>
                     <div className=''>
                       <div className='text-secondary dark:text-white text-sm hover:text-black  hover:underline  '>
                         Portfolio
@@ -102,7 +105,7 @@ export default function Navbar() {
                   </Link>
                 </li>
                 <li className='cursor-pointer  font-semibold   '>
-                  <Link href={'/'} className=' '>
+                  <Link onClick={handleClick} href={'/blog'} className=' '>
                     <div className=''>
                       <div className=' text-secondary dark:text-white text-sm hover:text-black hover:underline'>
                         Blog

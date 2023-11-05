@@ -23,6 +23,8 @@ const config: Config = {
         neutral1: '#313134',
 
         light: '#f0e7db',
+        'light-secondary': '#388697',
+        'light-secondary-900': '#08415C',
         lightAccent: '#212326',
       },
     },
