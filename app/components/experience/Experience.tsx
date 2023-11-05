@@ -43,9 +43,7 @@ export default function Experience() {
             style={{ overflowX: 'hidden' }}
           >
             <p className='portfolio-paragraph max-w-xl'>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Architecto aspeniam laudantium commodi cumque inventore nesciunt
-              ea pariatur! officiis.
+              Worked over 20+ projects. I look forward to meeting you soon!
             </p>
             <div className='flex justify-center items-center mt-4 md:mt-10'>
               <Link href='/portfolio' className='button'>
