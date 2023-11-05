@@ -9,7 +9,6 @@ Project Description
 - [ ] Fix Speed Tests  
 - [ ] Canonical Url: IMP  
 - [ ] Change Infinity Scroll Icons to Better Ones  
-- [ ] Fix Drop Down Edges  
 - [ ] MetaDataBase Issue  
 - [ ] Default it to Dark Mode  
 - [ ] Clicking outside the drop down menu undoes the menu  
@@ -18,11 +17,14 @@ Project Description
 
 ### In Progress
 
-- [ ] Add Skills  
-- [ ] Add FormSpree To Footer  
+- [ ] Footer REDesign  
+- [ ] Add Animation to to Skills  
 
 ### Done ✓
 
+- [x] Fix Drop Down Edges  
+- [x] Add FormSpree To Footer  
+- [x] Add Skills  
 - [x] Enquire and Fix responsive Image Tag  
 - [x] Iphone SE REsposive Issue Hero  
 - [x] Opacity Issue for the Drop Down Menu  
