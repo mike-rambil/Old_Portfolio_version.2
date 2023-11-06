@@ -99,7 +99,7 @@ export default function Footer() {
         &copy; 2024 Micheal Palliparambil. All Rights Reserved.
       </small>
       <Script src='https://formspree.io/js/formbutton-v1.min.js' defer></Script>
-      {/* <Script src='https://unpkg.com/boxicons@2.1.4/dist/boxicons.js' /> */}
+      <Script src='https://unpkg.com/boxicons@2.1.4/dist/boxicons.js' />
     </footer>
   );
 }
