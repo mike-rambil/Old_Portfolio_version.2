@@ -17,11 +17,10 @@ Project Description
 
 ### In Progress
 
-- [ ] Footer REDesign  
-- [ ] Add Animation to to Skills  
 
 ### Done ✓
 
+- [x] Footer REDesign  
 - [x] Fix Drop Down Edges  
 - [x] Add FormSpree To Footer  
 - [x] Add Skills  
