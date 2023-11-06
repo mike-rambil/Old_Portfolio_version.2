@@ -8,18 +8,20 @@ Project Description
 
 - [ ] Fix Speed Tests  
 - [ ] Canonical Url: IMP  
-- [ ] Change Infinity Scroll Icons to Better Ones  
 - [ ] MetaDataBase Issue  
-- [ ] Default it to Dark Mode  
 - [ ] Clicking outside the drop down menu undoes the menu  
 - [ ] Add Headers for dynamic renders  
 - [ ] Add New Projects  
 
 ### In Progress
 
+- [ ] Add Accents to Skills Section.  
+- [ ] Add a project mention to the get to know me section  
 
 ### Done ✓
 
+- [x] Change Infinity Scroll Icons to Better Ones  
+- [x] Default it to Dark Mode  
 - [x] Footer REDesign  
 - [x] Fix Drop Down Edges  
 - [x] Add FormSpree To Footer  

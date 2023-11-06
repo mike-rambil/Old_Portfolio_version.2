@@ -30,7 +30,7 @@ export default function PortfolioContent() {
 
   return (
     <Article>
-      <main className='flex flex-col items-center p-12 bg-lighdark:bg-primary'>
+      <main className='flex flex-col items-center p-12 '>
         <section className='max-w-2xl'>
           <h1 className='text-center text-black dark:text-secondary text-2xl md:text-4xl mb-16 font-bold '>
             Portfolio
@@ -44,7 +44,7 @@ export default function PortfolioContent() {
             {portfolio.map((project, index) => (
               <motion.li
                 variants={item}
-                className='flex flex-col justify-center items-center item '
+                className='flex flex-col justify-center  item '
               >
                 <Link
                   href={`/portfolio/${index}`}
