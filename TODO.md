@@ -17,10 +17,10 @@ Project Description
 
 ### In Progress
 
-- [ ] Footer REDesign  
 
 ### Done ✓
 
+- [x] Footer REDesign  
 - [x] Fix Drop Down Edges  
 - [x] Add FormSpree To Footer  
 - [x] Add Skills  
