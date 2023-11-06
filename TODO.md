@@ -18,7 +18,6 @@ Project Description
 ### In Progress
 
 - [ ] Footer REDesign  
-- [ ] Add Animation to to Skills  
 
 ### Done ✓
 

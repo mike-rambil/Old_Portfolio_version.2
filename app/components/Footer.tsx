@@ -2,6 +2,7 @@
 
 import Script from 'next/script';
 import { useEffect, useState } from 'react';
+import Socials from './Socials';
 
 export default function Footer() {
   const [isVisible, setIsVisible] = useState(false);
@@ -77,21 +78,28 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className='max-w-screen bg-[#e6c083] dark:bg-neutral1  flex flex-col justify-center py-8'>
-      <div className='mx-auto mt-2 mb-10'>
-        <button
-          className='bg-light-secondary dark:bg-main hover:bg-light-secondary transition-transform duration-200 hover:scale-105 text-light-secondary-900 dark:text-black py-1 md:py-2 px-5 md:px-10 rounded font-bold shadow-md shadow-gray-950  mb-10'
-          onClick={handleClick}
-        >
-          Contact Me
-        </button>
+    <footer className='max-w-screen bg-[#e6c083] dark:bg-neutral1  flex flex-col items-center justify-center py-8'>
+      <div className='flex flex-col md:flex-row justify-center items-center border-b-[1px] border-zinc-900'>
+        <div className='mx-auto mt-2 mb-10 text-3xl font-extrabold text-primary '>
+          Let's TALK!
+        </div>
+        <div className='mx-auto  flex justify-center items-center md:ml-4'>
+          <button
+            className='bg-light-secondary shadow-inner dark:bg-main hover:bg-light-secondary transition-transform duration-200 hover:scale-105 text-light-secondary-900 dark:text-black py-1 md:py-2 px-5 md:px-10 rounded font-bold shadow-md shadow-gray-950  mb-10'
+            onClick={handleClick}
+          >
+            Chat &gt;
+          </button>
+        </div>
       </div>
-
-      <small className='text-center text-black dark:text-slate-600'>
+      <div className='flex justify-center mt-2 gap-2'>
+        <Socials />
+      </div>
+      <small className='text-center text-xs text-black dark:text-slate-600 mt-10'>
         &copy; 2024 Micheal Palliparambil. All Rights Reserved.
       </small>
       <Script src='https://formspree.io/js/formbutton-v1.min.js' defer></Script>
-      <Script src='https://unpkg.com/boxicons@2.1.4/dist/boxicons.js' />
+      {/* <Script src='https://unpkg.com/boxicons@2.1.4/dist/boxicons.js' /> */}
     </footer>
   );
 }

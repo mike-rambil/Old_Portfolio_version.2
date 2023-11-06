@@ -1,7 +1,7 @@
 'use client';
 
-// import 'boxicons';
 import { Analytics } from '@vercel/analytics/react';
+import 'boxicons';
 import { Fira_Code } from 'next/font/google';
 import Main from './components/layouts/Main';
 import './globals.css';

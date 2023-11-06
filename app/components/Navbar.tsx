@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { useDarkMode } from '../utils/toggleLightMode/useDarkMode';
+import Socials from './Socials';
 import './navbar.css';
 import Logo from '/public/mike-rambil-logo.svg';
 export default function Navbar() {
@@ -95,24 +96,31 @@ export default function Navbar() {
               className='navbar bg-light-secondary-900 dark:bg-[#1c2c49] '
             >
               <nav className='w-full text-right'>
-                <li className='  cursor-pointer  font-semibold mb-5 '>
-                  <Link onClick={handleClick} href={'/portfolio'}>
-                    <div className=''>
-                      <div className='text-secondary dark:text-white text-sm hover:text-black  hover:underline  '>
-                        Portfolio
-                      </div>
-                    </div>
-                  </Link>
-                </li>
-                <li className='cursor-pointer  font-semibold   '>
-                  <Link onClick={handleClick} href={'/blog'} className=' '>
-                    <div className=''>
-                      <div className=' text-secondary dark:text-white text-sm hover:text-black hover:underline'>
-                        Blog
-                      </div>
-                    </div>
-                  </Link>
-                </li>
+                <div className='flex flex-col justify-between h-full'>
+                  <div>
+                    <li className='  cursor-pointer  font-semibold mb-5 '>
+                      <Link onClick={handleClick} href={'/portfolio'}>
+                        <div className=''>
+                          <div className='text-secondary dark:text-white text-sm hover:text-black  hover:underline  '>
+                            Portfolio
+                          </div>
+                        </div>
+                      </Link>
+                    </li>
+                    <li className='cursor-pointer  font-semibold   '>
+                      <Link onClick={handleClick} href={'/blog'} className=' '>
+                        <div className=''>
+                          <div className=' text-secondary dark:text-white text-sm hover:text-black hover:underline'>
+                            Blog
+                          </div>
+                        </div>
+                      </Link>
+                    </li>
+                  </div>
+                  <div className='flex justify-center  gap-2'>
+                    <Socials />
+                  </div>
+                </div>
               </nav>
             </div>
           </div>
