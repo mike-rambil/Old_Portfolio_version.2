@@ -7,16 +7,14 @@ export default function BioSocials() {
         <section>
           <h2 className='portfolio-h2'>Getting to know me</h2>
           <p className='portfolio-paragraph'>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto
-            aspernatur aperiam sit nesciunt reiciendis molestiae? Reprehenderit
-            repudiandae, perspiciatis velit beatae dolorum minus a voluptatem
-            ipsam aut sequi nesciunt? Minima, amet? Vitae suscipit dolorum quas
-            temporibus odit velit, excepturi labore nemo nam et ut, assumenda
-            harum. Et harum mollitia sit impedit velit. Ullam illum earum,
-            voluptatem debitis at quae nemo modi! Illum corrupti voluptatibus
-            architecto fugiat ipsum esse rem accusamus dolor, cum optio laborum,
-            odit totam corporis assumenda veniam laudantium commodi cumque
-            inventore nesciunt ea pariatur! officiis.
+            I am a problem solver able to break down complex issues and deliver
+            efficient solutions. I am constantly learning and keeping up with
+            the latest technologies and best practices in web development and
+            DevOps.
+            <br />I thrive in fast-paced environments where I can utilize my
+            skills to build robust and scalable applications. I am seeking new
+            opportunities where I can contribute my technical abilities and
+            passion for problem-solving.
           </p>
         </section>
         <section>
