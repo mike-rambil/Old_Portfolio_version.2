@@ -11,8 +11,10 @@ export default function BioSocials() {
             efficient solutions. I am constantly learning and keeping up with
             the latest technologies and best practices in web development and
             DevOps.
-            <br />I thrive in fast-paced environments where I can utilize my
-            skills to build robust and scalable applications. I am seeking new
+          </p>
+          <p className='portfolio-paragraph'>
+            I thrive in fast-paced environments where I can utilize my skills to
+            build robust and scalable applications. I am seeking new
             opportunities where I can contribute my technical abilities and
             passion for problem-solving.
           </p>
