@@ -41,6 +41,7 @@ export default function Skills() {
               <li className='portfolio-li'>TypeScript</li>
               <li className='portfolio-li'>C/C+</li>
               <li className='portfolio-li'>Java</li>
+              <li className='portfolio-li'>Python</li>
             </ul>
           </div>
         </div>
@@ -80,8 +81,6 @@ export default function Skills() {
           <div className='skills-box'>
             <ul className='portfolio-ul'>
               <li className='portfolio-li'>Prisma</li>
-              <li className='portfolio-li'>Knex.js</li>
-              <li className='portfolio-li'>AWS</li>
               <li className='portfolio-li'>Knex.js</li>
             </ul>
           </div>
