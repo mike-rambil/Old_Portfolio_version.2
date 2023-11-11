@@ -1,7 +1,10 @@
 import { Metadata } from 'next';
+import dynamic from 'next/dynamic';
 import BioSocials from './components/experience/BioSocials';
 import Experience from './components/experience/Experience';
-import Hero from './components/hero/Hero';
+
+// Dynamic Import -> separate client bundle
+const Hero = dynamic(() => import('./components/hero/Hero'));
 
 // TODO: OpenGraph Protocol and Icons- https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadata-fields
 // TODO: robots.txt

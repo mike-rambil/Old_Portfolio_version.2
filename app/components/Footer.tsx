@@ -98,8 +98,8 @@ export default function Footer() {
       <small className='text-center text-xs text-black dark:text-slate-600 mt-10'>
         &copy; 2024 Micheal Palliparambil. All Rights Reserved.
       </small>
-      <Script src='https://formspree.io/js/formbutton-v1.min.js' defer></Script>
-      <Script src='https://unpkg.com/boxicons@2.1.4/dist/boxicons.js' />
+      <Script src='https://formspree.io/js/formbutton-v1.min.js' defer />
+      <Script src='https://unpkg.com/boxicons@2.1.4/dist/boxicons.js' defer />
     </footer>
   );
 }
