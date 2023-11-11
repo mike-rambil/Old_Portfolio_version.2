@@ -1,6 +1,6 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import { m } from 'framer-motion';
 import Image from 'next/image';
 import hero from '/public/images/hero.svg';
 
@@ -13,7 +13,7 @@ const variants = {
 export default function Hero() {
   return (
     <>
-      <motion.section
+      <m.section
         initial='hidden'
         animate='enter'
         exit='exit'
@@ -76,7 +76,7 @@ export default function Hero() {
             IL.
           </div>
         </div>
-      </motion.section>
+      </m.section>
     </>
   );
 }

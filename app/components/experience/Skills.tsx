@@ -1,6 +1,6 @@
 'use client';
 import data from '@/app/portfolio/portfolio.json';
-import { motion } from 'framer-motion';
+import { m } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -103,7 +103,7 @@ export default function Skills() {
         </div>
         <div className='flex flex-col items-center justify-center mb-4'>
           <div className='portfolio-h2'>Recent Works</div>
-          <motion.ul
+          <m.ul
             className='max-w-2xl container'
             variants={container}
             initial='hidden'
@@ -113,7 +113,7 @@ export default function Skills() {
             }}
           >
             {recentWorks.map((project, index) => (
-              <motion.li
+              <m.li
                 variants={item}
                 className='flex flex-col justify-center items-center item '
               >
@@ -142,9 +142,9 @@ export default function Skills() {
                     {project?.short_description}
                   </p>
                 </Link>
-              </motion.li>
+              </m.li>
             ))}
-          </motion.ul>
+          </m.ul>
         </div>
         <div className='flex justify-center'>
           <Link href='/portfolio' className='button'>
