@@ -1,23 +1,8 @@
 'use client';
 
 import { m } from 'framer-motion';
-import dynamic from 'next/dynamic';
 import Image from 'next/image';
-
-const DynamicHeroSvg = dynamic(() =>
-  import('./hero.svg').then((mod) => {
-    const DynamicImage = () => (
-      <Image
-        alt="Micheal Palliparambil's Picture"
-        src={mod.default}
-        width={250}
-        height={226}
-        priority
-      />
-    );
-    return DynamicImage;
-  })
-);
+import hero from '/public/images/hero.svg';
 
 const variants = {
   hidden: { opacity: 0, x: 0, y: 20 },
@@ -51,7 +36,13 @@ export default function Hero() {
             </div>
           </div>
           <div className='bg-light-secondary w-[250px] h-[226] dark:bg-neutral1 rounded-tl-full rounded-tr-full md:rounded-tr-none flex mx-auto border-b-2 border-main md:mt-16'>
-            <DynamicHeroSvg />
+            <Image
+              alt="Micheal Palliparambil's Picture"
+              src={hero}
+              width={250}
+              height={226}
+              priority
+            />
           </div>
         </div>
         <div className='max-[320px]:w-[273px] max-w-lg md:max-w-2xl h-[50px] mx-auto mt-5 text-center flex justify-center items-center bg-light-secondary dark:bg-neutral1 text-white dark:text-gray-500 font-extrabold rounded '>
