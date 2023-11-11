@@ -53,7 +53,7 @@ export default function Navbar() {
         {/* Right Side */}
         <div className='flex'>
           <div className='flex mr-4 '>
-            <button onClick={handleDarkClick}>
+            <button onClick={handleDarkClick} aria-label='Toggle Dark Mode'>
               {isDark ? (
                 // @ts-ignore
                 <box-icon
@@ -81,7 +81,7 @@ export default function Navbar() {
           </div>
           <div style={{ position: 'relative' }}>
             <div className='mr-5 md:mr-4'>
-              <button onClick={handleClick}>
+              <button onClick={handleClick} aria-label='Toggle Menu'>
                 {' '}
                 <div id='menu' className='menu '>
                   <div className='toggler cross-nav '></div>

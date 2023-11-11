@@ -56,7 +56,7 @@ export default function PortfolioContent() {
                   >
                     <Image
                       className='rounded-lg cursor-pointer shadow-2xl shadow-gray-950 hover:shadow-cyan-500/40'
-                      alt={project.short_description}
+                      alt={`picture of ${project.name}`}
                       // width={400}
                       // height={150}
                       fill
