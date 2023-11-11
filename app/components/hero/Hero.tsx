@@ -1,5 +1,3 @@
-'use client';
-
 import Image from 'next/image';
 import hero from '/public/images/hero.svg';
 
