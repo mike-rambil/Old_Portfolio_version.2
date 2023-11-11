@@ -22,7 +22,10 @@ export default function RootLayout({
 
   return (
     //@ts-ignore
-    <html lang='en' className={theme}>
+    <html
+      lang='en'
+      // className={theme}
+    >
       <LazyMotion strict features={loadFeatures}>
         <body className={fira_Code.className}>
           <Main>
