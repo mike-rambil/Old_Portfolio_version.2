@@ -1,26 +1,12 @@
 'use client';
 
-import { m } from 'framer-motion';
 import Image from 'next/image';
 import hero from '/public/images/hero.svg';
-
-const variants = {
-  hidden: { opacity: 0, x: 0, y: 20 },
-  enter: { opacity: 1, x: 0, y: 0 },
-  exit: { opacity: 0, x: -0, y: 20 },
-};
 
 export default function Hero() {
   return (
     <>
-      <m.section
-        initial='hidden'
-        animate='enter'
-        exit='exit'
-        variants={variants}
-        transition={{ duration: 0.4, type: 'easeInOut' }}
-        className='max-[320px]:w-[275px]'
-      >
+      <section className='max-[320px]:w-[275px]'>
         <div className='max-[320px]:w-[275px] flex flex-col-reverse md:flex-row  md:w-full mt-4 '>
           <div className='flex flex-col justify-center items-left'>
             <div>
@@ -76,7 +62,7 @@ export default function Hero() {
             IL.
           </div>
         </div>
-      </m.section>
+      </section>
     </>
   );
 }
