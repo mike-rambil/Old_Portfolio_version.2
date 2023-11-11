@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { m } from 'framer-motion';
 
 const variants = {
   hidden: { opacity: 0, x: 0, y: 20 },
@@ -8,7 +8,7 @@ const variants = {
 
 export default function Article({ children }: { children: React.ReactNode }) {
   return (
-    <motion.article
+    <m.article
       initial='hidden'
       animate='enter'
       exit='exit'
@@ -17,6 +17,6 @@ export default function Article({ children }: { children: React.ReactNode }) {
       // style={{ position: 'relative' }}
     >
       {children}
-    </motion.article>
+    </m.article>
   );
 }

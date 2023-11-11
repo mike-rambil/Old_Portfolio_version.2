@@ -1,9 +1,9 @@
 'use client';
 
-import { motion } from 'framer-motion';
-import Image from 'next/image';
-import hero from '/public/images/hero.svg';
+import { m } from 'framer-motion';
+import dynamic from 'next/dynamic';
 
+const HeroImage = dynamic(() => import('./HeroImage'));
 const variants = {
   hidden: { opacity: 0, x: 0, y: 20 },
   enter: { opacity: 1, x: 0, y: 0 },
@@ -13,7 +13,7 @@ const variants = {
 export default function Hero() {
   return (
     <>
-      <motion.section
+      <m.section
         initial='hidden'
         animate='enter'
         exit='exit'
@@ -35,14 +35,8 @@ export default function Hero() {
               <h3>Artist</h3>
             </div>
           </div>
-          <div className='bg-light-secondary dark:bg-neutral1 rounded-tl-full rounded-tr-full md:rounded-tr-none flex mx-auto border-b-2 border-main md:mt-16'>
-            <Image
-              alt="Micheal Palliparambil's Picture"
-              src={hero}
-              width={250}
-              height={226}
-              priority
-            />
+          <div className='bg-light-secondary w-[250px] h-[226] dark:bg-neutral1 rounded-tl-full rounded-tr-full md:rounded-tr-none flex mx-auto border-b-2 border-main md:mt-16'>
+            <HeroImage />
           </div>
         </div>
         <div className='max-[320px]:w-[273px] max-w-lg md:max-w-2xl h-[50px] mx-auto mt-5 text-center flex justify-center items-center bg-light-secondary dark:bg-neutral1 text-white dark:text-gray-500 font-extrabold rounded '>
@@ -76,7 +70,7 @@ export default function Hero() {
             IL.
           </div>
         </div>
-      </motion.section>
+      </m.section>
     </>
   );
 }

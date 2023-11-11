@@ -6,6 +6,8 @@ Project Description
 
 ### Todo
 
+- [ ] Add Hero Webp  
+- [ ] Add Micheal Meta Data as a category  
 - [ ] Semantic HTML Headings  
 - [ ] Fix Speed Tests  
 - [ ] Canonical Url: IMP  

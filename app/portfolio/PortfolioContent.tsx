@@ -1,5 +1,5 @@
 'use client';
-import { motion, Variants } from 'framer-motion';
+import { m } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import Article from '../components/layouts/Article';
@@ -35,14 +35,14 @@ export default function PortfolioContent() {
           <h1 className='text-center text-black dark:text-secondary text-2xl md:text-4xl mb-16 font-bold '>
             Portfolio
           </h1>
-          <motion.ul
+          <m.ul
             className='max-w-2xl container'
             variants={container}
             initial='hidden'
             animate='visible'
           >
             {portfolio.map((project, index) => (
-              <motion.li
+              <m.li
                 variants={item}
                 className='flex flex-col justify-center  item '
               >
@@ -71,9 +71,9 @@ export default function PortfolioContent() {
                     {project?.short_description}
                   </p>
                 </Link>
-              </motion.li>
+              </m.li>
             ))}
-          </motion.ul>
+          </m.ul>
         </section>
       </main>
     </Article>
