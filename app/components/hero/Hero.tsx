@@ -15,10 +15,10 @@ export default function Hero() {
               </h1>
             </div>
             <div className=' flex justify-center gap-3 text-sm text-black dark:dark:text-secondary'>
-              <h3 className='hidden md:block '>Full Stack Developer -</h3>
-              <h3 className=' md:hidden '>Developer -</h3>
-              <h3>Designer -</h3>
-              <h3>Artist</h3>
+              <h2 className='hidden md:block '>Full Stack Developer -</h2>
+              <h2 className=' md:hidden '>Developer -</h2>
+              <h2>Designer -</h2>
+              <h2>Artist</h2>
             </div>
           </div>
           <div className='bg-light-secondary w-[250px] h-[226] dark:bg-neutral1 rounded-tl-full rounded-tr-full md:rounded-tr-none flex mx-auto border-b-2 border-main md:mt-16'>
