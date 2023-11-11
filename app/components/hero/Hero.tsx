@@ -2,10 +2,8 @@
 
 import { m } from 'framer-motion';
 import dynamic from 'next/dynamic';
-import Image from 'next/image';
 
 const HeroImage = dynamic(() => import('./HeroImage'));
-// import hero from '/public/images/hero.svg';
 const variants = {
   hidden: { opacity: 0, x: 0, y: 20 },
   enter: { opacity: 1, x: 0, y: 0 },
