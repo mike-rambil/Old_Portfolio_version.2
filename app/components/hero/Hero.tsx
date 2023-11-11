@@ -1,7 +1,14 @@
 'use client';
 
+import { m } from 'framer-motion';
 import Image from 'next/image';
 import hero from '/public/images/hero.svg';
+
+const variants = {
+  hidden: { opacity: 0, x: 0, y: 20 },
+  enter: { opacity: 1, x: 0, y: 0 },
+  exit: { opacity: 0, x: 0, y: 20 },
+};
 
 export default function Hero() {
   return (
@@ -22,13 +29,21 @@ export default function Hero() {
             </div>
           </div>
           <div className='bg-light-secondary w-[250px] h-[226] dark:bg-neutral1 rounded-tl-full rounded-tr-full md:rounded-tr-none flex mx-auto border-b-2 border-main md:mt-16'>
-            <Image
-              alt="Micheal Palliparambil's Picture"
-              src={hero}
-              width={250}
-              height={226}
-              priority
-            />
+            <m.div
+              initial='hidden'
+              animate='enter'
+              exit='exit'
+              variants={variants}
+              transition={{ duration: 0.4, type: 'easeInOut' }}
+            >
+              <Image
+                alt="Micheal Palliparambil's Picture"
+                src={hero}
+                width={250}
+                height={226}
+                priority
+              />
+            </m.div>
           </div>
         </div>
         <div className='max-[320px]:w-[273px] max-w-lg md:max-w-2xl h-[50px] mx-auto mt-5 text-center flex justify-center items-center bg-light-secondary dark:bg-neutral1 text-white dark:text-gray-500 font-extrabold rounded '>
