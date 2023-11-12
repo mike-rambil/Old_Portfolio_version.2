@@ -8,7 +8,7 @@ export default function Hero() {
         <div className='max-[320px]:w-[275px] flex flex-col-reverse md:flex-row  md:w-full mt-4 '>
           <div className='flex flex-col justify-center items-left'>
             <div>
-              <h1 className='max-[320px]:text-sm px-11 md:ml-0 text-4xl font-semibold text-black  dark:text-secondary mt-5 '>
+              <h1 className='max-[320px]:text-sm px-11 md:ml-0 text-4xl font-semibold text-black  dark:text-secondary mt-5  shadow-lg'>
                 Micheal Palliparambil
               </h1>
             </div>
@@ -29,7 +29,7 @@ export default function Hero() {
             />
           </div>
         </div>
-        <div className='max-[320px]:w-[273px] max-w-lg md:max-w-2xl h-[50px] mx-auto mt-5 text-center flex justify-center items-center bg-light-secondary dark:bg-neutral1 text-white dark:text-gray-500 font-extrabold rounded '>
+        <div className='max-[320px]:w-[273px] max-w-lg md:max-w-2xl h-[50px] mx-auto mt-5 text-center flex justify-center items-center  bg-light-secondary dark:bg-neutral1 text-white dark:text-gray-500 font-extrabold rounded'>
           <div className='hidden md:block'>
             {/* For Tablets and Up -> */}
             <span className='text-sm text-black dark:text-gray-500'>
@@ -39,10 +39,10 @@ export default function Hero() {
               <span className='text-black dark:text-gray-500 ml-3 text-sm hover:text-white'>
                 based in
               </span>
-              <span className='text-black dark:text-main mx-1 ml-4 text-1xl hover:text-white'>
+              <span className='text-white shadow-lg dark:text-main mx-1 ml-4 text-1xl hover:text-white'>
                 CHICAGO,
               </span>
-              <span className='dark:text-accent mx-1 text-1xl hover:text-white'>
+              <span className='text-black shadow-lg dark:text-accent mx-1 text-1xl hover:text-white'>
                 IL.
               </span>
             </span>
