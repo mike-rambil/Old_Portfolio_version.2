@@ -8,7 +8,7 @@ export default function Hero() {
         <div className='max-[320px]:w-[275px] flex flex-col-reverse md:flex-row  md:w-full mt-4 '>
           <div className='flex flex-col justify-center items-left'>
             <div>
-              <h1 className='max-[320px]:text-sm px-11 md:ml-0 text-4xl font-semibold text-black  dark:text-secondary mt-5  shadow-lg'>
+              <h1 className='max-[320px]:text-sm px-11 md:ml-0 text-4xl font-semibold text-black  dark:text-secondary mt-5  '>
                 Micheal Palliparambil
               </h1>
             </div>
@@ -19,7 +19,7 @@ export default function Hero() {
               <h2>Artist</h2>
             </div>
           </div>
-          <div className='bg-light-secondary w-[250px] h-[226] dark:bg-neutral1 rounded-tl-full rounded-tr-full md:rounded-tr-none flex mx-auto border-b-2 border-main md:mt-16'>
+          <div className='bg-light-secondary w-[250px] h-[226] dark:bg-neutral1 rounded-tl-full rounded-tr-full md:rounded-tr-none flex mx-auto border-b-2 border-main md:mt-16 shadow-lg shadow-black '>
             <Image
               alt="Micheal Palliparambil's Picture"
               src={hero}
@@ -29,7 +29,7 @@ export default function Hero() {
             />
           </div>
         </div>
-        <div className='max-[320px]:w-[273px] max-w-lg md:max-w-2xl h-[50px] mx-auto mt-5 text-center flex justify-center items-center  bg-light-secondary dark:bg-neutral1 text-white dark:text-gray-500 font-extrabold rounded'>
+        <div className='max-[320px]:w-[273px] max-w-lg md:max-w-2xl h-[50px] mx-auto mt-5 text-center flex justify-center items-center  bg-light-secondary dark:bg-neutral1 text-white dark:text-gray-500 font-extrabold rounded shadow-sm shadow-black'>
           <div className='hidden md:block'>
             {/* For Tablets and Up -> */}
             <span className='text-sm text-black dark:text-gray-500'>
