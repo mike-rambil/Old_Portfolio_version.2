@@ -39,7 +39,7 @@ export default function Hero() {
               <span className='text-black dark:text-gray-500 ml-3 text-sm hover:text-white'>
                 based in
               </span>
-              <span className='text-white shadow-lg dark:text-main mx-1 ml-4 text-1xl hover:text-white'>
+              <span className='text-[#0e0d0e] shadow-lg dark:text-main mx-1 ml-4 text-1xl hover:text-white'>
                 CHICAGO,
               </span>
               <span className='text-black shadow-lg dark:text-accent mx-1 text-1xl hover:text-white'>
