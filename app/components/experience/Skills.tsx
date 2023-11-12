@@ -102,7 +102,7 @@ export default function Skills() {
           </div>
         </div>
         <div className='flex flex-col items-center justify-center mb-4'>
-          <div className='portfolio-h2'>Recent Works</div>
+          <div className='portfolio-h2 w-full'>Recent Works</div>
           <m.ul
             className='max-w-2xl container'
             variants={container}
