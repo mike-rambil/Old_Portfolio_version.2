@@ -128,9 +128,9 @@ export default function Skills() {
                     <Image
                       className='rounded-lg cursor-pointer shadow-2xl shadow-gray-950 hover:shadow-cyan-500/40'
                       alt={`picture of ${project.name}`}
-                      // width={400}
-                      // height={150}
-                      fill
+                      width={750}
+                      height={382}
+                      // fill
                       src={`/portfolio/images/${project.images[0]}`}
                     />
                   </div>
