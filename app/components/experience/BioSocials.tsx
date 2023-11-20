@@ -5,7 +5,7 @@ export default function BioSocials() {
     <>
       <article className='max-w-xl'>
         <section>
-          <h2 className='portfolio-h2 '>Getting to know me</h2>
+          <h2 className='portfolio-h2 '>Get to know me</h2>
           <p className='portfolio-paragraph'>
             I am a problem solver able to break down complex issues and deliver
             efficient solutions. I am constantly learning and keeping up with
