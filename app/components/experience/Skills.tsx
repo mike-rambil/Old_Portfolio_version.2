@@ -95,10 +95,13 @@ export default function Skills() {
               <li className='portfolio-li'>Tekton</li>
               <li className='portfolio-li'>Docker</li>
               <li className='portfolio-li'>Kubernetes</li>
+              <li className='portfolio-li'>OpenShift</li>
               <li className='portfolio-li'>Github Actions</li>
               <li className='portfolio-li'>AWS</li>
-              <li className='portfolio-li'>OpenShift</li>
               <li className='portfolio-li'>TDD</li>
+              <li className='portfolio-li'>Jest</li>
+              <li className='portfolio-li'>Chai | Mocha</li>
+              <li className='portfolio-li'>Puppeteer</li>
             </ul>
           </div>
         </div>
