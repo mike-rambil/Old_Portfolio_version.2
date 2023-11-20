@@ -98,6 +98,7 @@ export default function Skills() {
               <li className='portfolio-li'>Github Actions</li>
               <li className='portfolio-li'>AWS</li>
               <li className='portfolio-li'>OpenShift</li>
+              <li className='portfolio-li'>TDD</li>
             </ul>
           </div>
         </div>
