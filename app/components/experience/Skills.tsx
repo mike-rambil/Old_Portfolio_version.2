@@ -106,7 +106,9 @@ export default function Skills() {
           </div>
         </div>
         <div className='flex flex-col items-center justify-center mb-4'>
-          <div className='portfolio-h2 w-full'>Recent Works</div>
+          <div className='portfolio-h2 w-full'>
+            <Link href={'/portfolio'}>Recent Projects</Link>
+          </div>
           <m.ul
             className='max-w-2xl container'
             variants={container}
@@ -116,38 +118,96 @@ export default function Skills() {
               once: true,
             }}
           >
-            {recentWorks.map((project, index) => (
-              <m.li
-                variants={item}
-                className='flex flex-col justify-center items-center item '
-              >
-                <Link
-                  href={`/portfolio/${index}`}
-                  className='transition-transform duration-200 hover:scale-105'
+            {recentWorks.map((project, index) =>
+              project?.images?.length ? (
+                <m.li
+                  variants={item}
+                  className='flex flex-col justify-center  item mb-8'
                 >
-                  <div
-                    className='h-[150px] w-[300px] md:h-[203px] md:w-[400px]'
-                    style={{ position: 'relative' }}
+                  <Link
+                    href={`/portfolio/${project.name}`}
+                    className='transition-transform duration-200 hover:scale-105'
                   >
-                    <Image
-                      className='rounded-lg cursor-pointer shadow-2xl shadow-gray-950 hover:shadow-cyan-500/40'
-                      alt={`picture of ${project.name}`}
-                      width={750}
-                      height={382}
-                      // fill
-                      src={`/portfolio/images/${project.images[0]}`}
-                    />
-                  </div>
-
-                  <p
-                    key={index}
-                    className='text-black dark:text-white my-8 max-w-xs text-xs'
+                    <div
+                      className='mx-auto h-[150px] w-[300px] md:h-[203px] md:w-[400px]'
+                      style={{ position: 'relative' }}
+                    >
+                      <Image
+                        className=' rounded-lg cursor-pointer shadow-2xl shadow-gray-950 hover:shadow-cyan-500/40'
+                        alt={`picture of ${project.name}`}
+                        // width={400}
+                        // height={150}
+                        fill
+                        src={`/portfolio/images/${project.images[0]}`}
+                      />
+                    </div>
+                    <h3
+                      key={index}
+                      className='bg-[#405a4d] dark:bg-[#34403a]  px-1 py-2 rounded-sm w-[400px] mx-auto dark:text-white mt-4 mb-2 text-sm flex'
+                    >
+                      <div className=' mx-auto text-teal-400 font-extrabold'>
+                        {project?.name}
+                      </div>
+                      <div>
+                        <div className=' bg-neutral dark:bg-main  px-1 rounded-full text-teal-500 dark:text-black font-bold  text-[10px]'>
+                          {project?.platform}
+                        </div>
+                      </div>
+                    </h3>
+                  </Link>
+                </m.li>
+              ) : (
+                <m.li
+                  variants={item}
+                  className='flex flex-col justify-center  item mb-8 '
+                >
+                  <Link
+                    href={`/portfolio/${project.name}`}
+                    className='transition-transform duration-200 hover:scale-105'
                   >
-                    {project?.short_description}
-                  </p>
-                </Link>
-              </m.li>
-            ))}
+                    <div
+                      // className='h-[250px] w-[170px] md:h-[303px] md:w-[200px]'
+                      className='flex justify-evenly'
+                      // style={{ position: 'relative' }}
+                    >
+                      {/* <div> */}
+                      <Image
+                        className='rounded-lg cursor-pointer shadow-2xl shadow-gray-950 hover:shadow-cyan-500/40'
+                        alt={`picture of ${project.name}`}
+                        width={150}
+                        height={150}
+                        // fill
+                        src={`/portfolio/images/${project.imagesMobile[0]}`}
+                      />
+                      {/* </div> */}
+                      {/* <div> */}
+                      <Image
+                        className='rounded-lg cursor-pointer shadow-2xl shadow-gray-950 hover:shadow-cyan-500/40'
+                        alt={`picture of ${project.name}`}
+                        width={150}
+                        height={150}
+                        // fill
+                        src={`/portfolio/images/${project.imagesMobile[1]}`}
+                      />
+                      {/* </div> */}
+                    </div>
+                    <h3
+                      key={index}
+                      className='bg-[#405a4d] dark:bg-[#34403a]  px-1 py-2 rounded-sm w-[400px] mx-auto dark:text-white mt-4 mb-2 text-sm flex'
+                    >
+                      <div className=' mx-auto text-teal-400 font-extrabold'>
+                        {project?.name}
+                      </div>
+                      <div>
+                        <div className='bg-blue-700 text-blue-300 px-1 rounded-full font-bold  text-[10px]'>
+                          {project?.platform}
+                        </div>
+                      </div>
+                    </h3>
+                  </Link>
+                </m.li>
+              )
+            )}
           </m.ul>
         </div>
         <div className='flex justify-center'>
