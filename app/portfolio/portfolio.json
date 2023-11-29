@@ -1,6 +1,19 @@
 {
   "portfolio": [
     {
+      "name": "Found-my-career!",
+      "short_description": "A realtime Job Hunting Mobile App!",
+      "images": [],
+      "imagesMobile": ["found-my-career-1.png", "found-my-career-2.png"],
+      "links": {
+        "front_end": "",
+        "back_end": "",
+        "github": "https://github.com/mike-rambil/REACT-NATIVE-found-my-career"
+      },
+      "stack": "React NATIVE / Expo / Expo Router / RAPID API / Tailwind CSS",
+      "features": "Real time Job Aggregation / Find Nearest Job / Search Real Time Jobs / View Job Descriptions / View Qualifications / View Responsibilities "
+    },
+    {
       "name": "Sociopedia",
       "short_description": "Sociopedia is a full-stack social media application",
       "images": ["sociopedia-1.png", "sociopedia-2.png"],
