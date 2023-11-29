@@ -23,7 +23,7 @@ export default function BioSocials() {
           <h2 className='portfolio-h2'>I ♥</h2>
           <p className='portfolio-paragraph'>
             I ♥ flying, playing guitar, programming, machine learning, reading
-            and complaining about how tough life is!
+            and complain about how tough life is!
           </p>
         </section>
         <Skills />
