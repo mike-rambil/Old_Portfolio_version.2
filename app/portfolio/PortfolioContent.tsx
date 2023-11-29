@@ -47,7 +47,7 @@ export default function PortfolioContent() {
                 className='flex flex-col justify-center  item '
               >
                 <Link
-                  href={`/portfolio/${index}`}
+                  href={`/portfolio/${project.name}`}
                   className='transition-transform duration-200 hover:scale-105'
                 >
                   <div

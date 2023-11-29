@@ -7,11 +7,11 @@ import data from '../portfolio.json';
 //function to query the param requested portfolio
 const getPost = (params: string) => {
   const { portfolio } = data;
-  return portfolio.find((_, index) => index == Number(params));
+  return portfolio.find((project) => project.name == params);
 };
 
-export default function Page({ params }: { params: { id: string } }) {
-  const current = getPost(params.id);
+export default function Page({ params }: { params: { name: string } }) {
+  const current = getPost(params.name);
 
   return (
     <>
