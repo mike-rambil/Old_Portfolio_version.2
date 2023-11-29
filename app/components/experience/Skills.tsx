@@ -143,7 +143,7 @@ export default function Skills() {
                     </div>
                     <h3
                       key={index}
-                      className='bg-[#405a4d] dark:bg-[#34403a]  px-1 py-2 rounded-sm w-[400px] mx-auto dark:text-white mt-4 mb-2 text-sm flex'
+                      className='bg-[#405a4d] dark:bg-[#34403a]  px-1 py-2 rounded-sm max-w-[400px] mx-auto dark:text-white mt-4 mb-2 text-sm flex'
                     >
                       <div className=' mx-auto text-teal-400 font-extrabold'>
                         {project?.name}
@@ -165,12 +165,7 @@ export default function Skills() {
                     href={`/portfolio/${project.name}`}
                     className='transition-transform duration-200 hover:scale-105'
                   >
-                    <div
-                      // className='h-[250px] w-[170px] md:h-[303px] md:w-[200px]'
-                      className='flex justify-evenly'
-                      // style={{ position: 'relative' }}
-                    >
-                      {/* <div> */}
+                    <div className='flex justify-evenly'>
                       <Image
                         className='rounded-lg cursor-pointer shadow-2xl shadow-gray-950 hover:shadow-cyan-500/40'
                         alt={`picture of ${project.name}`}
@@ -179,8 +174,6 @@ export default function Skills() {
                         // fill
                         src={`/portfolio/images/${project.imagesMobile[0]}`}
                       />
-                      {/* </div> */}
-                      {/* <div> */}
                       <Image
                         className='rounded-lg cursor-pointer shadow-2xl shadow-gray-950 hover:shadow-cyan-500/40'
                         alt={`picture of ${project.name}`}
@@ -189,11 +182,10 @@ export default function Skills() {
                         // fill
                         src={`/portfolio/images/${project.imagesMobile[1]}`}
                       />
-                      {/* </div> */}
                     </div>
                     <h3
                       key={index}
-                      className='bg-[#405a4d] dark:bg-[#34403a]  px-1 py-2 rounded-sm w-[400px] mx-auto dark:text-white mt-4 mb-2 text-sm flex'
+                      className='bg-[#405a4d] dark:bg-[#34403a]  px-1 py-2 rounded-sm max-w-[400px] mx-auto dark:text-white mt-4 mb-2 text-sm flex'
                     >
                       <div className=' mx-auto text-teal-400 font-extrabold'>
                         {project?.name}
