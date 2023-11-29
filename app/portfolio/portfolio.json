@@ -26,7 +26,7 @@
       "features": "Animation On Scroll / SEO Friendly / Static Rendering / Html & CSS Only"
     },
     {
-      "name": "Dalle Clone",
+      "name": "Dalle-Clone",
       "short_description": "The project aims to create a clone of the popular OpenAI's DALL·E, an image generation model",
       "images": ["dalle-clone-1.png", "dalle-clone-2.png"],
       "imagesMobile": ["dalle-clone-3.png", "dalle-clone-4.png"],
@@ -103,7 +103,7 @@
       "features": "Responsive design / Post Blogs / Authentication / User-friendly interface / Interactive User Interface / Seamless Backend Integration"
     },
     {
-      "name": "Pro Admin Dashboard",
+      "name": "Pro-Admin-Dashboard",
       "short_description": "The dashboard is designed to be helpful for admins to categorize teams, track visitors, and more",
       "images": ["pro-admin-dashboard-1.png", "pro-admin-dashboard-2.png"],
       "imagesMobile": [
@@ -132,7 +132,7 @@
       "features": "Review Functionality / Like and Comment Functionality / Image Upload / Post Creation / Profile Management / User Authorization / User Authentication / Stripe Payment"
     },
     {
-      "name": "Old Portfolio Website",
+      "name": "Old-Portfolio-Website",
       "short_description": "My first over-the-top portfolio website that I developed with so much passion but not SO MUCH WITH responsiveness :)",
       "images": [
         "older-portfolio-1.png",
