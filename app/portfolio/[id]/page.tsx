@@ -113,9 +113,9 @@ export default function Page({ params }: { params: { id: string } }) {
                     </span>
                     <a
                       className='text-pink-600 dark:text-accent '
-                      href={current?.features}
+                      href={current?.links.github}
                     >
-                      {current?.stack}
+                      {current?.features}
                       {/* @ts-ignore */}
                       <box-icon name='coin-stack' size='xs' color='purple'>
                         {/* @ts-ignore */}
