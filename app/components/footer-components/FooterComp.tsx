@@ -81,12 +81,12 @@ export default function FooterComp() {
   return (
     <>
       <div className='flex flex-col md:flex-row justify-center items-center border-b-[1px] border-zinc-900'>
-        <div className='mx-auto mt-2 mb-10 text-3xl font-extrabold text-primary '>
+        <div className='dark:text-teal-500 mx-auto mt-2 mb-10 text-3xl font-extrabold text-primary '>
           Let's TALK!
         </div>
         <div className='mx-auto  flex justify-center items-center md:ml-4'>
           <button
-            className='bg-light-secondary shadow-inner dark:bg-main hover:bg-light-secondary transition-transform duration-200 hover:scale-105 text-light-secondary-900 dark:text-black py-1 md:py-2 px-5 md:px-10 rounded font-bold shadow-md shadow-gray-950  mb-10'
+            className='bg-main dark:bg-light-secondary-900 shadow-inner  hover:bg-main transition-transform duration-200 hover:scale-105 text-black dark:text-white py-1 md:py-2 px-5 md:px-10 rounded font-bold shadow-md shadow-gray-950  mb-10'
             onClick={handleClick}
           >
             Chat &gt;

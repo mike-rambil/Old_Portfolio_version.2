@@ -1,7 +1,9 @@
 {
   "portfolio": [
     {
-      "name": "Found-my-career!",
+      "name": "Found-My-Career",
+      "platform": "iOS/Android | React NATIVE",
+
       "short_description": "A realtime Job Hunting Mobile App!",
       "images": [],
       "imagesMobile": ["found-my-career-1.png", "found-my-career-2.png"],
@@ -15,7 +17,8 @@
     },
     {
       "name": "Sociopedia",
-      "short_description": "Sociopedia is a full-stack social media application",
+      "platform": "Web App | React",
+      "short_description": "A full-stack social media application",
       "images": ["sociopedia-1.png", "sociopedia-2.png"],
       "imagesMobile": ["sociopedia-3.png", "sociopedia-4.png"],
       "links": {
@@ -28,7 +31,8 @@
     },
     {
       "name": "SushiMan",
-      "short_description": "Experience the authentic flavors of Japanese cuisine right at your doorstep",
+      "platform": "Web App",
+      "short_description": "A Restaurant Landing Page",
       "images": ["sushiman-1.png", "sushiman-2.png"],
       "imagesMobile": ["sushiman-3.png", "sushiman-4.png", "sushiman-5.png"],
       "links": {
@@ -40,7 +44,8 @@
     },
     {
       "name": "Dalle-Clone",
-      "short_description": "The project aims to create a clone of the popular OpenAI's DALL·E, an image generation model",
+      "platform": "Web App",
+      "short_description": "Clone of the popular OpenAI's DALL·E",
       "images": ["dalle-clone-1.png", "dalle-clone-2.png"],
       "imagesMobile": ["dalle-clone-3.png", "dalle-clone-4.png"],
       "links": {
@@ -53,7 +58,8 @@
     },
     {
       "name": "MovieLand",
-      "short_description": "The project aims to create a clone of the popular OpenAI's DALL·E, an image generation model",
+      "platform": "Web App",
+      "short_description": "A Movie Searching Algorithm | Rest API Based ",
       "images": ["movie-land-1.png", "movie-land-2.png"],
       "imagesMobile": ["movie-land-3.png", "movie-land-4.png"],
       "links": {
@@ -66,7 +72,8 @@
     },
     {
       "name": "EcomVision",
-      "short_description": "EcomVision is a comprehensive and responsive full-stack dashboard built using the MERN",
+      "platform": "Web App",
+      "short_description": "A comprehensive, full-stack dashboard.",
       "images": ["ecom-vision-1.png", "ecom-vision-2.png"],
       "imagesMobile": ["ecom-vision-3.png", "ecom-vision-4.png"],
       "links": {
@@ -79,7 +86,8 @@
     },
     {
       "name": "GPT-3",
-      "short_description": "About GPT-3 and OpenAI",
+      "platform": "Web App",
+      "short_description": "Landing page about GPT-3 and OpenAI",
       "images": ["gpt-3-1.png", "gpt-3-2.png"],
       "imagesMobile": ["gpt-3-3.png", "gpt-3-4.png"],
       "links": {
@@ -91,6 +99,7 @@
     },
     {
       "name": "KaamSeva",
+      "platform": "Web App",
       "short_description": "An online platform to discover your ideal career paths and find fulfilling employment",
       "images": ["kaamseva-1.png", "kaamseva-2.png"],
       "imagesMobile": ["kaamseva-3.png", "kaamseva-4.png", "kaamseva-5.png"],
@@ -104,6 +113,7 @@
     },
     {
       "name": "BlogMarine",
+      "platform": "Web App",
       "short_description": "A Full Stack Blog Application: Post your blogs here!",
       "images": ["blogmarine-1.png", "blogmarine-2.png"],
       "imagesMobile": ["blogmarine-3.png", "blogmarine-4.png"],
@@ -117,6 +127,7 @@
     },
     {
       "name": "Pro-Admin-Dashboard",
+      "platform": "Web App",
       "short_description": "The dashboard is designed to be helpful for admins to categorize teams, track visitors, and more",
       "images": ["pro-admin-dashboard-1.png", "pro-admin-dashboard-2.png"],
       "imagesMobile": [
@@ -133,6 +144,7 @@
     },
     {
       "name": "Natours",
+      "platform": "Web App",
       "short_description": "Server Side Rendered Tour Application",
       "images": ["natours-1.png", "natours-2.png"],
       "imagesMobile": [],
@@ -146,6 +158,7 @@
     },
     {
       "name": "Old-Portfolio-Website",
+      "platform": "Web App",
       "short_description": "My first over-the-top portfolio website that I developed with so much passion but not SO MUCH WITH responsiveness :)",
       "images": [
         "older-portfolio-1.png",
