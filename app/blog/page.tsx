@@ -2,7 +2,7 @@ import BlogIterater from '../components/minor/BlogIterater';
 import blogs from './blog.json';
 export default function Blog() {
   return (
-    <section className='flex min-h-screen max-w-full flex-col items-center p-12 bg-light dark:bg-primary'>
+    <section className='flex min-h-screen max-w-full flex-col items-center p-12 pt-24 bg-light dark:bg-primary'>
       <main
         data-aos='fade-up'
         data-aos-duration='200'
