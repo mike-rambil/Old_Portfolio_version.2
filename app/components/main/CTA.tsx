@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 import Article from '../layouts/Article';
 import './experience.css';
 
-export default function Experience() {
+export default function CTA() {
   useEffect(() => {
     const scrollers = document.querySelectorAll('.scroller');
 

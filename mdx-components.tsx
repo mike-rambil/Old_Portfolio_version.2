@@ -41,7 +41,10 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       </h4>
     ),
     p: ({ children }) => (
-      <p style={{ fontSize: '15px' }} className='dark:text-white'>
+      <p
+        style={{ fontSize: '15px', paddingLeft: '40px' }}
+        className='dark:text-white'
+      >
         {children}
       </p>
     ),
