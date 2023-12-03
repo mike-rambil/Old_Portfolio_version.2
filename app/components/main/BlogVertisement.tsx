@@ -2,7 +2,7 @@ import Link from 'next/link';
 import blogs from '../../blog/blog.json';
 import BlogIterater from '../minor/BlogIterater';
 export default function BlogVertisement() {
-  const firstBlog = [blogs.pop()];
+  const blog = blogs.slice(0, 1);
   return (
     <>
       <section className='max-w-xl w-full mt-12'>
@@ -10,7 +10,7 @@ export default function BlogVertisement() {
           <div className='portfolio-h2 w-full'>
             <Link href={'/blog'}>Check out my blogs here...</Link>
           </div>
-          {/* <BlogIterater blogs={firstBlog} /> */}
+          <BlogIterater blogs={blog} />
         </div>
       </section>
     </>

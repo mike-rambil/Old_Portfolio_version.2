@@ -1,18 +1,19 @@
 import Link from 'next/link';
 
 type Blog = {
-  title: string;
-  description: string;
-  slug: string;
-  date: string;
-  tags: string[];
+  title?: string;
+  description?: string;
+  slug?: string;
+  date?: string;
+  tags?: string[];
 };
 
 export default function BlogIterater({ blogs }: { blogs: Blog[] }) {
+  console.log(blogs);
   return (
     <>
       <section className='max-w-4xl w-full'>
-        {blogs.map((blog: any, index: number) => (
+        {blogs.map((blog, index) => (
           <div data-aos='fade-up' data-aos-duration={500 * (index + 1)}>
             <section
               key={index}
