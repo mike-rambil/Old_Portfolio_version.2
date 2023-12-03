@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 import Article from '../layouts/Article';
 import './experience.css';
 
-export default function Experience() {
+export default function CTA() {
   useEffect(() => {
     const scrollers = document.querySelectorAll('.scroller');
 
@@ -36,7 +36,7 @@ export default function Experience() {
   return (
     <>
       <Article>
-        <article className='mb-16'>
+        <section className='mb-16'>
           <section
             className='max-[320px]:w-[275px] md:max-w-xl'
             // style={{ position: 'relative', overflowX: 'hidden' }}
@@ -120,7 +120,7 @@ export default function Experience() {
               </div>
             </div>
           </section>
-        </article>
+        </section>
       </Article>
     </>
   );

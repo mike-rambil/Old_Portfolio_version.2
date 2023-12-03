@@ -1,5 +1,3 @@
-import Skills from './Skills';
-
 export default function BioSocials() {
   return (
     <>
@@ -9,8 +7,9 @@ export default function BioSocials() {
           <p className='portfolio-paragraph'>
             I am a problem solver able to break down complex issues and deliver
             efficient solutions. I am constantly learning and keeping up with
-            the latest technologies and best practices in web development and
-            DevOps.
+            the latest technologies and best practices in{' '}
+            <b className='text-accent'> web development</b> and
+            <b className='text-accent'> DevOps</b> .
           </p>
           <p className='portfolio-paragraph'>
             I thrive in fast-paced environments where I can utilize my skills to
@@ -22,11 +21,11 @@ export default function BioSocials() {
         <section>
           <h2 className='portfolio-h2'>I ♥</h2>
           <p className='portfolio-paragraph'>
-            I ♥ flying, playing guitar, programming, machine learning, reading
-            and complain about how tough life is!
+            I ♥ <b className='text-accent'> flying</b>, playing guitar,
+            programming, <b className='text-accent'> machine learning</b>,
+            reading and complain about how tough life is!
           </p>
         </section>
-        <Skills />
       </article>
     </>
   );

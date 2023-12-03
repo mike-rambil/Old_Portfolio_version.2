@@ -49,6 +49,10 @@ body {
   @apply bg-light-secondary-900 dark:bg-main hover:bg-light-secondary transition-transform duration-200 hover:translate-x-7 text-light dark:text-black py-1 md:py-2 px-5 md:px-10 rounded font-medium shadow-md shadow-gray-950 hover:shadow-cyan-500/40;
 }
 
+.hover-blaze {
+  @apply hover:bg-light-secondary transition-transform duration-200 hover:translate-x-7;
+}
+
 .cross-nav {
   @apply bg-light-secondary-900 dark:bg-main;
 }

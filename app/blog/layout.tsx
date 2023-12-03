@@ -1,22 +1,9 @@
 import { Metadata } from 'next';
-import dynamic from 'next/dynamic';
-import BioSocials from './components/main/BioSocials';
-import CTA from './components/main/CTA';
-import ProjectsCase from './components/main/ProjectsCase';
-import Skills from './components/main/Skills';
-
-// Dynamic Import -> separate client bundle
-const Hero = dynamic(() => import('./components/hero/Hero'));
-
-// TODO: OpenGraph Protocol and Icons- https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadata-fields
-// TODO: robots.txt
-// TODO: Sitemap
-// TODO: Canonical
 
 export const metadata: Metadata = {
-  title: 'Homepage | Micheal Palliparambil',
+  title: 'Blog | Micheal Palliparambil',
   description:
-    'Micheal Palliparambil is a software developer based in Chicago, IL. Checkout his Website here! ',
+    'Micheal Palliparambil blogs once in a while. Checkout his Website here! ',
   keywords: [
     'Micheal',
     'Palliparambil',
@@ -53,15 +40,10 @@ export const metadata: Metadata = {
     type: 'website',
   },
 };
-
-export default function Home() {
-  return (
-    <main className='flex min-h-screen max-w-screen flex-col items-center p-12 bg-light  dark:bg-primary'>
-      <Hero />
-      <CTA />
-      <BioSocials />
-      <Skills />
-      <ProjectsCase />
-    </main>
-  );
+export default function BlogLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return <>{children}</>;
 }
