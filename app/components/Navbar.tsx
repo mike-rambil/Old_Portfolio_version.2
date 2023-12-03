@@ -101,7 +101,7 @@ export default function Navbar() {
                     <ul>
                       <li className='  cursor-pointer  font-semibold mb-5 '>
                         <Link onClick={handleClick} href={'/portfolio'}>
-                          <div data-aos='fade-left' data-aos-once='false'>
+                          <div>
                             <div className='text-secondary dark:text-white text-sm hover:text-black  hover:underline  '>
                               Portfolio
                             </div>
@@ -114,7 +114,7 @@ export default function Navbar() {
                           href={'/blog'}
                           className=' '
                         >
-                          <div data-aos-once='false' data-aos='fade-left'>
+                          <div>
                             <div className=' text-secondary dark:text-white text-sm hover:text-black hover:underline'>
                               Blog
                             </div>

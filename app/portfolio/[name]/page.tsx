@@ -75,10 +75,23 @@ export default function Page({ params }: { params: { name: string } }) {
                     </div>
                   )}
                   {current?.links.github && (
-                    <div className='text-xs my-1'>
-                      <span className='mr-1 bg-[#405a4d] dark:bg-[#34403a] text-[#72a584] px-1 rounded-sm'>
-                        GITHUB:
-                      </span>
+                    <div className='text-xs my-1 flex'>
+                      <div className='flex'>
+                        <span className='mr-1 bg-[#405a4d] dark:bg-[#34403a] text-[#72a584] px-1 rounded-sm flex'>
+                          <div>
+                            {/* @ts-ignore */}
+                            <box-icon
+                              name='github'
+                              type='logo'
+                              size='xs'
+                              color='black'
+                            >
+                              {/* @ts-ignore */}
+                            </box-icon>
+                          </div>
+                          <div>GITHUB:</div>
+                        </span>
+                      </div>
                       <a
                         className='text-pink-600 dark:text-accent hover:underline'
                         href={current?.links.github}

@@ -2,6 +2,12 @@ import Image from 'next/image';
 import hero from '/public/images/hero.svg';
 
 export default function Hero() {
+  const animation = {
+    'data-aos': 'flip-up',
+    'data-aos-duration': '100',
+    'data-aos-delay': '50',
+  };
+
   return (
     <>
       <section className='max-[320px]:w-[275px]'>
@@ -12,8 +18,11 @@ export default function Hero() {
                 Micheal Palliparambil
               </h1>
             </div>
-            <div className=' flex justify-center gap-3 text-sm text-black dark:dark:text-secondary'>
-              <h2 className='hidden md:block '>Full Stack Developer -</h2>
+            <div
+              {...animation}
+              className=' flex justify-center gap-3 text-sm text-black dark:dark:text-secondary'
+            >
+              <h2>Full Stack Developer -</h2>
               <h2 className=' md:hidden '>Developer -</h2>
               <h2>Designer -</h2>
               <h2>Artist</h2>
