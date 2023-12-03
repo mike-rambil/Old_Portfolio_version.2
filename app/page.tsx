@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import dynamic from 'next/dynamic';
 import BioSocials from './components/main/BioSocials';
+import BlogVertisement from './components/main/BlogVertisement';
 import CTA from './components/main/CTA';
 import ProjectsCase from './components/main/ProjectsCase';
 import Skills from './components/main/Skills';
@@ -62,6 +63,7 @@ export default function Home() {
       <BioSocials />
       <Skills />
       <ProjectsCase />
+      <BlogVertisement />
     </main>
   );
 }

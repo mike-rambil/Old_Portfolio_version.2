@@ -31,7 +31,7 @@ export default function ProjectsCase() {
 
   return (
     <>
-      <div className='flex flex-col items-center justify-center mb-4'>
+      <div className='flex flex-col items-center justify-center mb-4 max-w-xl w-full'>
         <div className='portfolio-h2 w-full'>
           <Link href={'/portfolio'}>Recent Projects</Link>
         </div>
