@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import dynamic from 'next/dynamic';
-import BioSocials from './components/experience/BioSocials';
-import Experience from './components/experience/Experience';
+import BioSocials from './components/main/BioSocials';
+import Experience from './components/main/Experience';
 
 // Dynamic Import -> separate client bundle
 const Hero = dynamic(() => import('./components/hero/Hero'));

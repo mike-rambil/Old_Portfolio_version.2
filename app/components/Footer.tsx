@@ -1,6 +1,5 @@
 import dynamic from 'next/dynamic';
 import Script from 'next/script';
-
 const FooterComp = dynamic(() => import('./footer-components/FooterComp'));
 
 export default function Footer() {
