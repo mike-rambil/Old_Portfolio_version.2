@@ -42,10 +42,11 @@ export default function Page({ params }: { params: { name: string } }) {
               </h3>
 
               <section className='w-full '>
-                <div className='flex flex-col items-left md:ml-10'>
+                <div className='flex flex-col items-left md:ml-10 mt-14'>
                   {current?.links.front_end && (
                     <div className='text-xs my-1'>
-                      <span className='mr-1 bg-[#405a4d] dark:bg-[#34403a] text-[#72a584] px-1 rounded-sm'>
+                      <span className='mr-1  bg-[#405a4d] dark:bg-[#34403a] text-[#72a584] px-1 rounded-sm '>
+                        {/* @ts-ignore */}
                         WEBSITE:
                       </span>
                       <a
@@ -63,23 +64,10 @@ export default function Page({ params }: { params: { name: string } }) {
                   )}
                   {current?.links.back_end && (
                     <div className='text-xs my-1 flex'>
-                      <div className='flex'>
-                        <span className='mr-1 bg-[#405a4d] dark:bg-[#34403a] text-[#72a584] px-1 rounded-sm flex'>
-                          <div>
-                            {/* @ts-ignore */}
-                            <box-icon
-                              name='link-external'
-                              type='logo'
-                              size='xs'
-                              color='black'
-                            >
-                              {/* @ts-ignore */}
-                            </box-icon>
-                          </div>
-                          {/* @ts-ignore */}
-                          <div>Backend:</div>
-                        </span>
-                      </div>
+                      <span className='mr-1 bg-[#405a4d] dark:bg-[#34403a] text-[#72a584] px-1 rounded-sm flex'>
+                        {/* @ts-ignore */}
+                        Backend:
+                      </span>
                       <a
                         className='text-pink-600 dark:text-accent hover:underline'
                         href={current?.links.back_end}
@@ -94,23 +82,10 @@ export default function Page({ params }: { params: { name: string } }) {
                     </div>
                   )}
                   {current?.links.github && (
-                    <div className='text-xs my-1 flex'>
-                      <div className='flex'>
-                        <span className='mr-1 bg-[#405a4d] dark:bg-[#34403a] text-[#72a584] px-1 rounded-sm flex'>
-                          <div>
-                            {/* @ts-ignore */}
-                            <box-icon
-                              name='github'
-                              type='logo'
-                              size='xs'
-                              color='black'
-                            >
-                              {/* @ts-ignore */}
-                            </box-icon>
-                          </div>
-                          <div>GITHUB:</div>
-                        </span>
-                      </div>
+                    <div className='text-xs my-1 '>
+                      <span className='mr-1 bg-[#405a4d] dark:bg-[#34403a] text-[#72a584] px-1 rounded-sm '>
+                        GITHUB:
+                      </span>
                       <a
                         className='text-pink-600 dark:text-accent hover:underline'
                         href={current?.links.github}
@@ -124,8 +99,9 @@ export default function Page({ params }: { params: { name: string } }) {
                       </a>
                     </div>
                   )}
-                  <div className='text-xs mt-4'>
-                    <span className='mr-1 bg-[#405a4d] dark:bg-[#34403a] text-[#72a584] px-1 rounded-sm'>
+                  <div className='text-xs mt-4 mb-4'>
+                    <span className='mr-1 bg-[#405a4d] dark:bg-[#34403a] text-[#72a584] px-1 rounded-sm '>
+                      {/* @ts-ignore */}
                       STACK:
                     </span>
                     <a
@@ -139,7 +115,7 @@ export default function Page({ params }: { params: { name: string } }) {
                       </box-icon>
                     </a>
                   </div>
-                  <div className='text-xs my-1'>
+                  <div className='text-xs my-1 mb-4'>
                     <span className='mr-1 bg-[#405a4d] dark:bg-[#34403a] text-[#72a584] px-1 rounded-sm'>
                       FEATURES:
                     </span>
