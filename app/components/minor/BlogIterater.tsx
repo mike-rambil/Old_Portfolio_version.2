@@ -13,7 +13,11 @@ export default function BlogIterater({ blogs }: { blogs: Blog[] }) {
     <>
       <section className='max-w-4xl w-full'>
         {blogs.map((blog, index) => (
-          <div data-aos='fade-up' data-aos-duration={500 * (index + 1)}>
+          <div
+            data-aos='flip-up'
+            data-aos-duration={500 * (index + 1)}
+            className='shadow-2xl shadow-black'
+          >
             <section
               key={index}
               className=' hover-blaze bg-light-secondary dark:bg-neutral1 w-full rounded-sm relative'
