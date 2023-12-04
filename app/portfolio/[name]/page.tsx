@@ -63,8 +63,8 @@ export default function Page({ params }: { params: { name: string } }) {
                     </div>
                   )}
                   {current?.links.back_end && (
-                    <div className='text-xs my-1 flex'>
-                      <span className='mr-1 bg-[#405a4d] dark:bg-[#34403a] text-[#72a584] px-1 rounded-sm flex'>
+                    <div className='text-xs my-1 '>
+                      <span className='mr-1 bg-[#405a4d] dark:bg-[#34403a] text-[#72a584] px-1 rounded-sm '>
                         {/* @ts-ignore */}
                         Backend:
                       </span>
