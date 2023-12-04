@@ -31,9 +31,15 @@ export default function Page({ params }: { params: { name: string } }) {
                   &lt; Go Back
                 </Link>
               </div>
-              <p className='my-16 text-sm text-black dark:text-white mt-20 indent-20 '>
+              <p className='my-16 text-sm md:text-xl text-black dark:text-white mt-20 indent-20 '>
                 {current?.short_description}
               </p>
+
+              <h3 className='bg-blue-700   px-1 py-2 rounded-sm  dark:text-white mt-4 mb-2 text-sm flex'>
+                <div className='bg-blue-700 text-blue-300 px-1 rounded-full font-bold  text-[10px]'>
+                  {current?.platform}
+                </div>
+              </h3>
 
               <section className='w-full '>
                 <div className='flex flex-col items-left md:ml-10'>
@@ -56,11 +62,24 @@ export default function Page({ params }: { params: { name: string } }) {
                     </div>
                   )}
                   {current?.links.back_end && (
-                    <div className='text-xs my-1'>
-                      <span className='mr-1 bg-[#405a4d] dark:bg-[#34403a] text-[#72a584] px-1 rounded-sm'>
-                        BACKEND:
-                      </span>
-
+                    <div className='text-xs my-1 flex'>
+                      <div className='flex'>
+                        <span className='mr-1 bg-[#405a4d] dark:bg-[#34403a] text-[#72a584] px-1 rounded-sm flex'>
+                          <div>
+                            {/* @ts-ignore */}
+                            <box-icon
+                              name='link-external'
+                              type='logo'
+                              size='xs'
+                              color='black'
+                            >
+                              {/* @ts-ignore */}
+                            </box-icon>
+                          </div>
+                          {/* @ts-ignore */}
+                          <div>Backend:</div>
+                        </span>
+                      </div>
                       <a
                         className='text-pink-600 dark:text-accent hover:underline'
                         href={current?.links.back_end}

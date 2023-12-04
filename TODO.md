@@ -7,6 +7,8 @@ Project Description
 ### Todo
 
 - [ ] Add Hero Webp
+- [ ] Add Plaform to Portfolio section
+- [ ] Add ... to article and description, heading
 - [ ] Add Micheal Meta Data as a category
 - [ ] Semantic HTML Headings
 - [ ] Fix Speed Tests
