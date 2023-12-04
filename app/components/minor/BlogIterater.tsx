@@ -9,7 +9,6 @@ type Blog = {
 };
 
 export default function BlogIterater({ blogs }: { blogs: Blog[] }) {
-  console.log(blogs);
   return (
     <>
       <section className='max-w-4xl w-full'>
