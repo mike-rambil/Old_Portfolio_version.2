@@ -13,7 +13,7 @@ export default function Hero() {
               </h1>
             </div>
             <div className=' flex justify-center gap-3 text-sm text-black dark:dark:text-secondary'>
-              <h2>Full Stack Developer -</h2>
+              <h2 className='hidden md:visible'>Full Stack Developer -</h2>
               <h2 className=' md:hidden '>Developer -</h2>
               <h2>Designer -</h2>
               <h2>Artist</h2>
