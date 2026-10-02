@@ -1,6 +1,8 @@
 'use client';
 
+import Image from 'next/image';
 import { useEffect, useState } from 'react';
+import hero from '/public/images/hero.svg';
 import { NEW_SITE } from '../utils/site';
 
 const EXCUSES = [
@@ -75,15 +77,28 @@ export default function StayOnV2() {
 
   return (
     <section className='max-[320px]:w-[275px] w-full max-w-lg md:max-w-2xl mx-auto mt-14 mb-24 text-center'>
-      <p className='text-sm text-black dark:text-white'>
-        You found <span className='font-bold'>Micheal v2.0</span>, lovingly
-        retired.
-      </p>
-      <p className='text-xs mt-2 text-black/70 dark:text-gray-500'>
-        The projects, the blog and the better jokes moved to v3.
-      </p>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-8 items-center'>
+        <div className='md:text-left'>
+          <p className='text-sm text-black dark:text-white'>
+            You found <span className='font-bold'>Micheal v2.0</span>, lovingly
+            retired.
+          </p>
+          <p className='text-xs mt-2 text-black/70 dark:text-gray-500'>
+            The projects, the blog and the better jokes moved to v3.
+          </p>
+        </div>
+        <div className='bg-light-secondary w-[250px] dark:bg-neutral1 rounded-tl-full rounded-tr-full md:rounded-tr-none mx-auto md:mr-0 border-b-2 border-main shadow-lg shadow-black'>
+          <Image
+            alt="Micheal Palliparambil's Picture"
+            src={hero}
+            width={250}
+            height={226}
+            priority
+          />
+        </div>
+      </div>
 
-      <div className='flex flex-col sm:flex-row gap-4 justify-center items-center mt-8'>
+      <div className='flex flex-col sm:flex-row gap-4 justify-center items-center mt-10'>
         <a href={NEW_SITE} className='button'>
           Take me to v3 &gt;
         </a>
