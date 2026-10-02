@@ -1,10 +1,6 @@
 import { Metadata } from 'next';
-import dynamic from 'next/dynamic';
 import StayOnV2 from './components/StayOnV2';
 import { NEW_SITE } from './utils/site';
-
-// Dynamic Import -> separate client bundle
-const Hero = dynamic(() => import('./components/hero/Hero'));
 
 // TODO: OpenGraph Protocol and Icons- https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadata-fields
 // TODO: robots.txt
@@ -57,7 +53,6 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main className='flex min-h-screen max-w-screen flex-col items-center p-12 bg-light  dark:bg-primary'>
-      <Hero />
       <StayOnV2 />
     </main>
   );
