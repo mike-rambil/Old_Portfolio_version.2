@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
+import { NEW_SITE } from '../utils/site';
 import { useDarkMode } from '../utils/toggleLightMode/useDarkMode';
 import Socials from './Socials';
 import './navbar.css';
@@ -100,26 +101,22 @@ export default function Navbar() {
                   <div>
                     <ul>
                       <li className='  cursor-pointer  font-semibold mb-5 '>
-                        <Link onClick={handleClick} href={'/portfolio'}>
+                        <a onClick={handleClick} href={NEW_SITE}>
                           <div>
                             <div className='text-secondary dark:text-white text-sm hover:text-black  hover:underline  '>
                               Portfolio
                             </div>
                           </div>
-                        </Link>
+                        </a>
                       </li>
                       <li className='cursor-pointer  font-semibold   '>
-                        <Link
-                          onClick={handleClick}
-                          href={'/blog'}
-                          className=' '
-                        >
+                        <a onClick={handleClick} href={NEW_SITE}>
                           <div>
                             <div className=' text-secondary dark:text-white text-sm hover:text-black hover:underline'>
                               Blog
                             </div>
                           </div>
-                        </Link>
+                        </a>
                       </li>
                     </ul>
                   </div>
