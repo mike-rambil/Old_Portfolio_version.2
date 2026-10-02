@@ -1,10 +1,7 @@
 import { Metadata } from 'next';
 import dynamic from 'next/dynamic';
-import BioSocials from './components/main/BioSocials';
-import BlogVertisement from './components/main/BlogVertisement';
-import CTA from './components/main/CTA';
-import ProjectsCase from './components/main/ProjectsCase';
-import Skills from './components/main/Skills';
+import StayOnV2 from './components/StayOnV2';
+import { NEW_SITE } from './utils/site';
 
 // Dynamic Import -> separate client bundle
 const Hero = dynamic(() => import('./components/hero/Hero'));
@@ -29,6 +26,8 @@ export const metadata: Metadata = {
   ],
   creator: 'Mike Rambil',
   publisher: 'Micheal Palliparambil',
+  // This site is retired; point search engines at the new one.
+  alternates: { canonical: NEW_SITE },
 
   authors: [{ name: 'Micheal-Palliparambil' }],
   openGraph: {
@@ -59,11 +58,7 @@ export default function Home() {
   return (
     <main className='flex min-h-screen max-w-screen flex-col items-center p-12 bg-light  dark:bg-primary'>
       <Hero />
-      <CTA />
-      <BioSocials />
-      <Skills />
-      <ProjectsCase />
-      <BlogVertisement />
+      <StayOnV2 />
     </main>
   );
 }
